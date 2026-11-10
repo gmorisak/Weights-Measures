@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)"/>
+  <g filter="url(#shadow)" fill="#FFFFFF">
+    <!-- Fulcrum Knob -->
+    <circle cx="256" cy="140" r="22"/>
+    <!-- Beam -->
+    <rect x="110" y="160" width="292" height="16" rx="8"/>
+    <!-- Center Pillar -->
+    <rect x="246" y="150" width="20" height="230" rx="6"/>
+    <!-- Base -->
+    <rect x="156" y="370" width="200" height="26" rx="13"/>
+    <!-- Left Suspension -->
+    <line x1="145" y1="172" x2="145" y2="260" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <!-- Left Pan -->
+    <path d="M 100 260 Q 145 305 190 260 Z" fill="#FFFFFF"/>
+    <!-- Weight Stack -->
+    <rect x="130" y="235" width="30" height="24" rx="4" fill="#FFFFFF"/>
+    <!-- Right Suspension -->
+    <line x1="367" y1="172" x2="367" y2="260" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <!-- Right Measuring Cup -->
+    <path d="M 320 260 L 330 310 Q 367 325 404 310 L 414 260 Z" fill="#FFFFFF"/>
+    <!-- Handle -->
+    <path d="M 412 268 C 430 268 430 298 408 302" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

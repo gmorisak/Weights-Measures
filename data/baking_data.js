@@ -1,0 +1,9749 @@
+window.BAKING_DATA = {
+  "version": "1.0.0",
+  "generated_at": "2026-11-09",
+  "total_ingredients": 387,
+  "categories": [
+    "Chocolate & Cocoa",
+    "Dairy & Eggs",
+    "Fats & Oils",
+    "Fruits & Vegetables",
+    "Grains & Flours",
+    "Leaveners & Spices",
+    "Liquids & Syrups",
+    "Nuts & Seeds",
+    "Specialty & Other",
+    "Sugars & Sweeteners"
+  ],
+  "sources": {
+    "king_arthur": {
+      "name": "King Arthur Baking",
+      "description": "Fluff & Spoon method (fluff flour, gently spoon into cup, sweep level). Ideal for yeast breads and delicate cakes."
+    },
+    "la_times": {
+      "name": "Los Angeles Times Test Kitchen",
+      "description": "Dip & Sweep method (dip measuring cup directly into ingredient and sweep level). Standard California baking chart."
+    }
+  },
+  "ingredients": [
+    {
+      "id": "00-pizza-flour",
+      "name": "'00' Pizza Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 116.0,
+      "tbsp_grams": 7.25,
+      "tsp_grams": 2.42,
+      "ml_grams": 0.49,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 116.0,
+          "ounces": "4",
+          "cup_grams": 116.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "agave-nectar",
+      "name": "Agave nectar",
+      "category": "Liquids & Syrups",
+      "cup_grams": 336.0,
+      "tbsp_grams": 21.0,
+      "tsp_grams": 7.0,
+      "ml_grams": 1.42,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "agave nectar",
+          "cup_grams": 336.0,
+          "volumes": {
+            "1 Cup": 336.0,
+            "3/4 Cup": 252.0,
+            "2/3 Cup": 224.0,
+            "1/2 Cup": 168.0,
+            "1/3 Cup": 112.0,
+            "1/4 Cup": 84.0,
+            "3 TBSP": 63.0,
+            "2 TBSP": 42.0,
+            "1 TBSP": 21.0,
+            "1 TSP": 7.0,
+            "1/2 TSP": 4.0,
+            "1/4 TSP": 2.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "agave-syrup",
+      "name": "Agave syrup",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 336.0,
+      "tbsp_grams": 21.0,
+      "tsp_grams": 7.0,
+      "ml_grams": 1.42,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 84.0,
+          "ounces": "3",
+          "cup_grams": 336.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "all-purpose-baking-mix",
+      "name": "All-Purpose Baking Mix",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "all-purpose-flour",
+      "name": "All-Purpose Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "all-purpose flour",
+          "cup_grams": 142.0,
+          "volumes": {
+            "1 Cup": 142.0,
+            "3/4 Cup": 107.0,
+            "2/3 Cup": 95.0,
+            "1/2 Cup": 71.0,
+            "1/3 Cup": 47.0,
+            "1/4 Cup": 36.0,
+            "3 TBSP": 27.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 22.0,
+        "diff_percent": 18.3,
+        "note": "LA Times (142.0g/cup) is 18.3% heavier than King Arthur (120.0g/cup)."
+      }
+    },
+    {
+      "id": "almond-butter",
+      "name": "Almond butter",
+      "category": "Nuts & Seeds",
+      "cup_grams": 272.0,
+      "tbsp_grams": 17.0,
+      "tsp_grams": 5.67,
+      "ml_grams": 1.15,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 68.0,
+          "ounces": "2 1/3",
+          "cup_grams": 272.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "almond butter",
+          "cup_grams": 252.0,
+          "volumes": {
+            "1 Cup": 252.0,
+            "3/4 Cup": 189.0,
+            "2/3 Cup": 168.0,
+            "1/2 Cup": 126.0,
+            "1/3 Cup": 84.0,
+            "1/4 Cup": 63.0,
+            "3 TBSP": 47.0,
+            "2 TBSP": 32.0,
+            "1 TBSP": 16.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -20.0,
+        "diff_percent": -7.4,
+        "note": "LA Times (252.0g/cup) is 7.4% lighter than King Arthur (272.0g/cup)."
+      }
+    },
+    {
+      "id": "almond-flour",
+      "name": "Almond Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 96.0,
+          "ounces": "3 3/8",
+          "cup_grams": 96.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "almond flour",
+          "cup_grams": 109.0,
+          "volumes": {
+            "1 Cup": 109.0,
+            "3/4 Cup": 82.0,
+            "2/3 Cup": 73.0,
+            "1/2 Cup": 55.0,
+            "1/3 Cup": 36.0,
+            "1/4 Cup": 27.0,
+            "3 TBSP": 20.0,
+            "2 TBSP": 14.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 13.0,
+        "diff_percent": 13.5,
+        "note": "LA Times (109.0g/cup) is 13.5% heavier than King Arthur (96.0g/cup)."
+      }
+    },
+    {
+      "id": "almond-meal",
+      "name": "Almond meal",
+      "category": "Grains & Flours",
+      "cup_grams": 84.0,
+      "tbsp_grams": 5.25,
+      "tsp_grams": 1.75,
+      "ml_grams": 0.355,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 84.0,
+          "ounces": "3",
+          "cup_grams": 84.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "almond-paste-packed",
+      "name": "Almond paste (packed)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 259.0,
+      "tbsp_grams": 16.19,
+      "tsp_grams": 5.4,
+      "ml_grams": 1.095,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 259.0,
+          "ounces": "9 1/8",
+          "cup_grams": 259.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "almonds-sliced",
+      "name": "Almonds (sliced)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 86.0,
+      "tbsp_grams": 5.38,
+      "tsp_grams": 1.79,
+      "ml_grams": 0.364,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 43.0,
+          "ounces": "1 1/2",
+          "cup_grams": 86.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "almonds-slivered",
+      "name": "Almonds (slivered)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "almonds",
+          "cup_grams": 113.0,
+          "volumes": {
+            "1 Cup": 113.0,
+            "3/4 Cup": 85.0,
+            "2/3 Cup": 75.0,
+            "1/2 Cup": 57.0,
+            "1/3 Cup": 38.0,
+            "1/4 Cup": 28.0,
+            "3 TBSP": 21.0,
+            "2 TBSP": 14.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -1.0,
+        "diff_percent": -0.9,
+        "note": "Virtually identical between King Arthur (114.0g/cup) and LA Times (113.0g/cup)."
+      }
+    },
+    {
+      "id": "almonds-whole-unblanched",
+      "name": "Almonds, whole (unblanched)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "amaranth-flour",
+      "name": "Amaranth flour",
+      "category": "Grains & Flours",
+      "cup_grams": 103.0,
+      "tbsp_grams": 6.44,
+      "tsp_grams": 2.15,
+      "ml_grams": 0.435,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 103.0,
+          "ounces": "3 5/8",
+          "cup_grams": 103.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "apple-butter",
+      "name": "Apple butter",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 253.0,
+      "tbsp_grams": 15.81,
+      "tsp_grams": 5.27,
+      "ml_grams": 1.069,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "apple butter",
+          "cup_grams": 253.0,
+          "volumes": {
+            "1 Cup": 253.0,
+            "3/4 Cup": 190.0,
+            "2/3 Cup": 169.0,
+            "1/2 Cup": 127.0,
+            "1/3 Cup": 84.0,
+            "1/4 Cup": 63.0,
+            "3 TBSP": 47.0,
+            "2 TBSP": 32.0,
+            "1 TBSP": 16.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "apple-juice-concentrate",
+      "name": "Apple juice concentrate",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 280.0,
+      "tbsp_grams": 17.5,
+      "tsp_grams": 5.83,
+      "ml_grams": 1.183,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 70.0,
+          "ounces": "2 1/2",
+          "cup_grams": 280.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "apples-dried-diced",
+      "name": "Apples (dried, diced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "apples-peeled-sliced",
+      "name": "Apples (peeled, sliced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "applesauce",
+      "name": "Applesauce",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 255.0,
+      "tbsp_grams": 15.94,
+      "tsp_grams": 5.31,
+      "ml_grams": 1.078,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 255.0,
+          "ounces": "9",
+          "cup_grams": 255.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "applesauce",
+          "cup_grams": 264.0,
+          "volumes": {
+            "1 Cup": 264.0,
+            "3/4 Cup": 198.0,
+            "2/3 Cup": 176.0,
+            "1/2 Cup": 132.0,
+            "1/3 Cup": 88.0,
+            "1/4 Cup": 66.0,
+            "3 TBSP": 50.0,
+            "2 TBSP": 33.0,
+            "1 TBSP": 17.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 9.0,
+        "diff_percent": 3.5,
+        "note": "LA Times (264.0g/cup) is 3.5% heavier than King Arthur (255.0g/cup)."
+      }
+    },
+    {
+      "id": "apricots-dried-diced",
+      "name": "Apricots (dried, diced)",
+      "category": "Specialty & Other",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 64.0,
+          "ounces": "2 1/4",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "artisan-bread-flour",
+      "name": "Artisan Bread Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "artisan-bread-topping",
+      "name": "Artisan Bread Topping",
+      "category": "Specialty & Other",
+      "cup_grams": 172.0,
+      "tbsp_grams": 10.75,
+      "tsp_grams": 3.58,
+      "ml_grams": 0.727,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 43.0,
+          "ounces": "1 1/2",
+          "cup_grams": 172.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baker-s-cinnamon-filling",
+      "name": "Baker's Cinnamon Filling",
+      "category": "Leaveners & Spices",
+      "cup_grams": 152.0,
+      "tbsp_grams": 9.5,
+      "tsp_grams": 3.17,
+      "ml_grams": 0.642,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 152.0,
+          "ounces": "5 3/8",
+          "cup_grams": 152.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baker-s-fruit-blend",
+      "name": "Baker's Fruit Blend",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baker-s-reserve-bread-flour",
+      "name": "Baker's Reserve Bread Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baker-s-special-sugar-superfine-sugar-castor-sugar",
+      "name": "Baker's Special Sugar (superfine sugar, castor sugar)",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 190.0,
+      "tbsp_grams": 11.88,
+      "tsp_grams": 3.96,
+      "ml_grams": 0.803,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 190.0,
+          "ounces": "6 3/4",
+          "cup_grams": 190.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baking-powder",
+      "name": "Baking powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 192.0,
+      "tbsp_grams": 12.0,
+      "tsp_grams": 4.0,
+      "ml_grams": 0.812,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 tea spoon",
+          "grams": 4.0,
+          "ounces": "1/8",
+          "cup_grams": 192.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baking-soda",
+      "name": "Baking soda",
+      "category": "Leaveners & Spices",
+      "cup_grams": 288.0,
+      "tbsp_grams": 18.0,
+      "tsp_grams": 6.0,
+      "ml_grams": 1.217,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 tea spoon",
+          "grams": 3.0,
+          "ounces": "1/10",
+          "cup_grams": 288.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "baking-sugar-alternative",
+      "name": "Baking Sugar Alternative",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "bananas-mashed",
+      "name": "Bananas (mashed)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "barley-cooked",
+      "name": "Barley (cooked)",
+      "category": "Grains & Flours",
+      "cup_grams": 215.0,
+      "tbsp_grams": 13.44,
+      "tsp_grams": 4.48,
+      "ml_grams": 0.909,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 215.0,
+          "ounces": "7 5/8",
+          "cup_grams": 215.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "barley-pearled",
+      "name": "Barley (pearled)",
+      "category": "Grains & Flours",
+      "cup_grams": 213.0,
+      "tbsp_grams": 13.31,
+      "tsp_grams": 4.44,
+      "ml_grams": 0.9,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 213.0,
+          "ounces": "7 1/2",
+          "cup_grams": 213.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "barley-flakes",
+      "name": "Barley flakes",
+      "category": "Grains & Flours",
+      "cup_grams": 92.0,
+      "tbsp_grams": 5.75,
+      "tsp_grams": 1.92,
+      "ml_grams": 0.389,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 46.0,
+          "ounces": "1 5/8",
+          "cup_grams": 92.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "barley-flour",
+      "name": "Barley flour",
+      "category": "Grains & Flours",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "barley flour",
+          "cup_grams": 137.0,
+          "volumes": {
+            "1 Cup": 137.0,
+            "3/4 Cup": 103.0,
+            "2/3 Cup": 91.0,
+            "1/2 Cup": 69.0,
+            "1/3 Cup": 46.0,
+            "1/4 Cup": 34.0,
+            "3 TBSP": 26.0,
+            "2 TBSP": 17.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 52.0,
+        "diff_percent": 61.2,
+        "note": "LA Times (137.0g/cup) is 61.2% heavier than King Arthur (85.0g/cup)."
+      }
+    },
+    {
+      "id": "barley-malt-syrup",
+      "name": "Barley malt syrup",
+      "category": "Grains & Flours",
+      "cup_grams": 336.0,
+      "tbsp_grams": 21.0,
+      "tsp_grams": 7.0,
+      "ml_grams": 1.42,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 42.0,
+          "ounces": "1 1/2",
+          "cup_grams": 336.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "basil-pesto",
+      "name": "Basil pesto",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 224.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "bell-peppers-fresh",
+      "name": "Bell peppers (fresh)",
+      "category": "Specialty & Other",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "berries-frozen",
+      "name": "Berries (frozen)",
+      "category": "Specialty & Other",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "berry-preserves",
+      "name": "Berry preserves",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 308.0,
+      "tbsp_grams": 19.25,
+      "tsp_grams": 6.42,
+      "ml_grams": 1.302,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "berry preserves",
+          "cup_grams": 308.0,
+          "volumes": {
+            "1 Cup": 308.0,
+            "3/4 Cup": 231.0,
+            "2/3 Cup": 205.0,
+            "1/2 Cup": 154.0,
+            "1/3 Cup": 103.0,
+            "1/4 Cup": 77.0,
+            "3 TBSP": 58.0,
+            "2 TBSP": 39.0,
+            "1 TBSP": 19.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "better-cheddar-cheese-powder",
+      "name": "Better Cheddar Cheese Powder",
+      "category": "Dairy & Eggs",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "blueberries-dried",
+      "name": "Blueberries (dried)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "blueberries-fresh-or-frozen",
+      "name": "Blueberries (fresh or frozen)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 155.0,
+      "tbsp_grams": 9.69,
+      "tsp_grams": 3.23,
+      "ml_grams": 0.655,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 155.0,
+          "ounces": "5 to 6",
+          "cup_grams": 155.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "blueberries",
+          "cup_grams": 151.0,
+          "volumes": {
+            "1 Cup": 151.0,
+            "3/4 Cup": 113.0,
+            "2/3 Cup": 101.0,
+            "1/2 Cup": 76.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 38.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -4.0,
+        "diff_percent": -2.6,
+        "note": "LA Times (151.0g/cup) is 2.6% lighter than King Arthur (155.0g/cup)."
+      }
+    },
+    {
+      "id": "blueberry-juice",
+      "name": "Blueberry juice",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 241.0,
+      "tbsp_grams": 15.06,
+      "tsp_grams": 5.02,
+      "ml_grams": 1.019,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 241.0,
+          "ounces": "8 1/2",
+          "cup_grams": 241.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "boiled-cider",
+      "name": "Boiled cider",
+      "category": "Fats & Oils",
+      "cup_grams": 340.0,
+      "tbsp_grams": 21.25,
+      "tsp_grams": 7.08,
+      "ml_grams": 1.437,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 340.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "bran-cereal",
+      "name": "Bran cereal",
+      "category": "Grains & Flours",
+      "cup_grams": 60.0,
+      "tbsp_grams": 3.75,
+      "tsp_grams": 1.25,
+      "ml_grams": 0.254,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 60.0,
+          "ounces": "2 1/8",
+          "cup_grams": 60.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "bread-flour",
+      "name": "Bread Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "breadcrumbs-dried",
+      "name": "Breadcrumbs (dried)",
+      "category": "Grains & Flours",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "breadcrumbs-fresh",
+      "name": "Breadcrumbs (fresh)",
+      "category": "Grains & Flours",
+      "cup_grams": 84.0,
+      "tbsp_grams": 5.25,
+      "tsp_grams": 1.75,
+      "ml_grams": 0.355,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 21.0,
+          "ounces": "3/4",
+          "cup_grams": 84.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "breadcrumbs-japanese-panko",
+      "name": "Breadcrumbs (Japanese Panko)",
+      "category": "Grains & Flours",
+      "cup_grams": 50.0,
+      "tbsp_grams": 3.12,
+      "tsp_grams": 1.04,
+      "ml_grams": 0.211,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 50.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "brown-rice-cooked",
+      "name": "Brown rice (cooked)",
+      "category": "Specialty & Other",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "brown-rice-flour",
+      "name": "Brown rice flour",
+      "category": "Grains & Flours",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "brown-sugar-dark-or-light-packed",
+      "name": "Brown sugar (dark or light, packed)",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 213.0,
+      "tbsp_grams": 13.31,
+      "tsp_grams": 4.44,
+      "ml_grams": 0.9,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 213.0,
+          "ounces": "7 1/2",
+          "cup_grams": 213.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "packed brown sugar",
+          "cup_grams": 215.0,
+          "volumes": {
+            "1 Cup": 215.0,
+            "3/4 Cup": 161.0,
+            "2/3 Cup": 143.0,
+            "1/2 Cup": 108.0,
+            "1/3 Cup": 72.0,
+            "1/4 Cup": 54.0,
+            "3 TBSP": 40.0,
+            "2 TBSP": 27.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 2.0,
+        "diff_percent": 0.9,
+        "note": "Virtually identical between King Arthur (213.0g/cup) and LA Times (215.0g/cup)."
+      }
+    },
+    {
+      "id": "buckwheat-whole",
+      "name": "Buckwheat (whole)",
+      "category": "Grains & Flours",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "buckwheat-flour",
+      "name": "Buckwheat Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "buckwheat flour",
+          "cup_grams": 136.0,
+          "volumes": {
+            "1 Cup": 136.0,
+            "3/4 Cup": 102.0,
+            "2/3 Cup": 91.0,
+            "1/2 Cup": 68.0,
+            "1/3 Cup": 45.0,
+            "1/4 Cup": 34.0,
+            "3 TBSP": 26.0,
+            "2 TBSP": 17.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 16.0,
+        "diff_percent": 13.3,
+        "note": "LA Times (136.0g/cup) is 13.3% heavier than King Arthur (120.0g/cup)."
+      }
+    },
+    {
+      "id": "buckwheat-groats",
+      "name": "Buckwheat groats",
+      "category": "Grains & Flours",
+      "cup_grams": 168.0,
+      "tbsp_grams": 10.5,
+      "tsp_grams": 3.5,
+      "ml_grams": 0.71,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "buckwheat groats",
+          "cup_grams": 168.0,
+          "volumes": {
+            "1 Cup": 168.0,
+            "3/4 Cup": 126.0,
+            "2/3 Cup": 112.0,
+            "1/2 Cup": 84.0,
+            "1/3 Cup": 56.0,
+            "1/4 Cup": 42.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "bulgur",
+      "name": "Bulgur",
+      "category": "Specialty & Other",
+      "cup_grams": 152.0,
+      "tbsp_grams": 9.5,
+      "tsp_grams": 3.17,
+      "ml_grams": 0.642,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 152.0,
+          "ounces": "5 3/8",
+          "cup_grams": 152.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "Fats & Oils",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "8 table spoons (1/2 cup)",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "buttermilk",
+      "name": "Buttermilk",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "buttermilk",
+          "cup_grams": 245.0,
+          "volumes": {
+            "1 Cup": 245.0,
+            "3/4 Cup": 184.0,
+            "2/3 Cup": 163.0,
+            "1/2 Cup": 123.0,
+            "1/3 Cup": 82.0,
+            "1/4 Cup": 61.0,
+            "3 TBSP": 46.0,
+            "2 TBSP": 31.0,
+            "1 TBSP": 15.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 18.0,
+        "diff_percent": 7.9,
+        "note": "LA Times (245.0g/cup) is 7.9% heavier than King Arthur (227.0g/cup)."
+      }
+    },
+    {
+      "id": "buttermilk-biscuit-flour-blend",
+      "name": "Buttermilk Biscuit Flour Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 110.0,
+      "tbsp_grams": 6.88,
+      "tsp_grams": 2.29,
+      "ml_grams": 0.465,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 110.0,
+          "ounces": "3 7/8",
+          "cup_grams": 110.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "buttermilk-powder",
+      "name": "Buttermilk powder",
+      "category": "Fats & Oils",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 18.0,
+          "ounces": "2/3",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "butternut-squash-puree",
+      "name": "Butternut squash puree",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 284.0,
+      "tbsp_grams": 17.75,
+      "tsp_grams": 5.92,
+      "ml_grams": 1.2,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "butternut squash puree",
+          "cup_grams": 284.0,
+          "volumes": {
+            "1 Cup": 284.0,
+            "3/4 Cup": 213.0,
+            "2/3 Cup": 189.0,
+            "1/2 Cup": 142.0,
+            "1/3 Cup": 95.0,
+            "1/4 Cup": 71.0,
+            "3 TBSP": 53.0,
+            "2 TBSP": 36.0,
+            "1 TBSP": 18.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "cacao-nibs",
+      "name": "Cacao nibs",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cake-enhancer",
+      "name": "Cake Enhancer",
+      "category": "Specialty & Other",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 14.0,
+          "ounces": "1/2",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "candied-ginger",
+      "name": "Candied ginger",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 172.0,
+      "tbsp_grams": 10.75,
+      "tsp_grams": 3.58,
+      "ml_grams": 0.727,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "candied ginger",
+          "cup_grams": 172.0,
+          "volumes": {
+            "1 Cup": 172.0,
+            "3/4 Cup": 129.0,
+            "2/3 Cup": 115.0,
+            "1/2 Cup": 86.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 22.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "candied-lemon-peel",
+      "name": "Candied Lemon Peel",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 148.0,
+      "tbsp_grams": 9.25,
+      "tsp_grams": 3.08,
+      "ml_grams": 0.626,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 37.0,
+          "ounces": "1 1/3",
+          "cup_grams": 148.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "candied-orange-peel",
+      "name": "Candied Orange Peel",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 25.0,
+          "ounces": "7/8",
+          "cup_grams": 100.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "caramel-14-16-individual-pieces-1-squares",
+      "name": "Caramel (14-16 individual pieces, 1\" squares)",
+      "category": "Specialty & Other",
+      "cup_grams": 284.0,
+      "tbsp_grams": 17.75,
+      "tsp_grams": 5.92,
+      "ml_grams": 1.2,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 284.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "caramel-bits-chopped-heath-or-toffee",
+      "name": "Caramel bits (chopped Heath or toffee)",
+      "category": "Specialty & Other",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "caraway-seeds",
+      "name": "Caraway seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "carrots-cooked-and-pur-ed",
+      "name": "Carrots (cooked and puréed)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 256.0,
+      "tbsp_grams": 16.0,
+      "tsp_grams": 5.33,
+      "ml_grams": 1.082,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 256.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "carrots-diced",
+      "name": "Carrots (diced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "carrots-grated",
+      "name": "Carrots (grated)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 99.0,
+      "tbsp_grams": 6.19,
+      "tsp_grams": 2.06,
+      "ml_grams": 0.418,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 99.0,
+          "ounces": "3 1/2",
+          "cup_grams": 99.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cashews-chopped",
+      "name": "Cashews (chopped)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cashews-whole",
+      "name": "Cashews (whole)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "celery-diced",
+      "name": "Celery (diced)",
+      "category": "Specialty & Other",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cheese-feta",
+      "name": "Cheese (Feta)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cheese-grated-cheddar-jack-mozzarella-or-swiss",
+      "name": "Cheese (grated cheddar, jack, mozzarella, or Swiss)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cheese-grated-parmesan",
+      "name": "Cheese (grated Parmesan)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 100.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cheese-ricotta",
+      "name": "Cheese (Ricotta)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "ricotta",
+          "cup_grams": 226.0,
+          "volumes": {
+            "1 Cup": 226.0,
+            "3/4 Cup": 170.0,
+            "2/3 Cup": 151.0,
+            "1/2 Cup": 113.0,
+            "1/3 Cup": 75.0,
+            "1/4 Cup": 57.0,
+            "3 TBSP": 42.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -1.0,
+        "diff_percent": -0.4,
+        "note": "Virtually identical between King Arthur (227.0g/cup) and LA Times (226.0g/cup)."
+      }
+    },
+    {
+      "id": "cherries-candied",
+      "name": "Cherries (candied)",
+      "category": "Specialty & Other",
+      "cup_grams": 200.0,
+      "tbsp_grams": 12.5,
+      "tsp_grams": 4.17,
+      "ml_grams": 0.845,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 200.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cherries-dried",
+      "name": "Cherries (dried)",
+      "category": "Specialty & Other",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 71.0,
+          "ounces": "2 1/2",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cherries-fresh-pitted-chopped",
+      "name": "Cherries (fresh, pitted, chopped)",
+      "category": "Specialty & Other",
+      "cup_grams": 160.0,
+      "tbsp_grams": 10.0,
+      "tsp_grams": 3.33,
+      "ml_grams": 0.676,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 80.0,
+          "ounces": "2 7/8",
+          "cup_grams": 160.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cherries-frozen",
+      "name": "Cherries (frozen)",
+      "category": "Specialty & Other",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cherry-concentrate",
+      "name": "Cherry Concentrate",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 336.0,
+      "tbsp_grams": 21.0,
+      "tsp_grams": 7.0,
+      "ml_grams": 1.42,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 42.0,
+          "ounces": "1 1/2",
+          "cup_grams": 336.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chia-seeds",
+      "name": "Chia seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 148.0,
+      "tbsp_grams": 9.25,
+      "tsp_grams": 3.08,
+      "ml_grams": 0.626,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 37.0,
+          "ounces": "1 1/3",
+          "cup_grams": 148.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chickpea-flour",
+      "name": "Chickpea flour",
+      "category": "Grains & Flours",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chives-fresh",
+      "name": "Chives (fresh)",
+      "category": "Specialty & Other",
+      "cup_grams": 42.0,
+      "tbsp_grams": 2.62,
+      "tsp_grams": 0.88,
+      "ml_grams": 0.178,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 21.0,
+          "ounces": "3/4",
+          "cup_grams": 42.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chocolate-chopped",
+      "name": "Chocolate (chopped)",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chocolate-chips",
+      "name": "Chocolate Chips",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "chocolate chips",
+          "cup_grams": 180.0,
+          "volumes": {
+            "1 Cup": 180.0,
+            "3/4 Cup": 135.0,
+            "2/3 Cup": 120.0,
+            "1/2 Cup": 90.0,
+            "1/3 Cup": 60.0,
+            "1/4 Cup": 45.0,
+            "3 TBSP": 34.0,
+            "2 TBSP": 23.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 10.0,
+        "diff_percent": 5.9,
+        "note": "LA Times (180.0g/cup) is 5.9% heavier than King Arthur (170.0g/cup)."
+      }
+    },
+    {
+      "id": "chocolate-chunks",
+      "name": "Chocolate Chunks",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chocolate-mousse-mix",
+      "name": "Chocolate Mousse Mix",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "chopped-chocolate",
+      "name": "Chopped chocolate",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "chopped chocolate",
+          "cup_grams": 170.0,
+          "volumes": {
+            "1 Cup": 170.0,
+            "3/4 Cup": 128.0,
+            "2/3 Cup": 113.0,
+            "1/2 Cup": 85.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "cinnamon-sweet-bits",
+      "name": "Cinnamon Sweet Bits",
+      "category": "Leaveners & Spices",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cinnamon-sugar",
+      "name": "Cinnamon-Sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 200.0,
+      "tbsp_grams": 12.5,
+      "tsp_grams": 4.17,
+      "ml_grams": 0.845,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 200.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "climate-blend-flour",
+      "name": "Climate Blend Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 115.0,
+      "tbsp_grams": 7.19,
+      "tsp_grams": 2.4,
+      "ml_grams": 0.486,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 115.0,
+          "ounces": "4",
+          "cup_grams": 115.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cocoa-unsweetened",
+      "name": "Cocoa (unsweetened)",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 84.0,
+      "tbsp_grams": 5.25,
+      "tsp_grams": 1.75,
+      "ml_grams": 0.355,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 42.0,
+          "ounces": "1 1/2",
+          "cup_grams": 84.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cocoa-powder",
+      "name": "Cocoa powder",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "cocoa powder",
+          "cup_grams": 96.0,
+          "volumes": {
+            "1 Cup": 96.0,
+            "3/4 Cup": 72.0,
+            "2/3 Cup": 64.0,
+            "1/2 Cup": 48.0,
+            "1/3 Cup": 32.0,
+            "1/4 Cup": 24.0,
+            "3 TBSP": 18.0,
+            "2 TBSP": 12.0,
+            "1 TBSP": 6.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "coconut-sweetened-shredded",
+      "name": "Coconut (sweetened, shredded)",
+      "category": "Specialty & Other",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-toasted",
+      "name": "Coconut (toasted)",
+      "category": "Specialty & Other",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-unsweetened-desiccated",
+      "name": "Coconut (unsweetened, desiccated)",
+      "category": "Specialty & Other",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-unsweetened-large-flakes",
+      "name": "Coconut (unsweetened, large flakes)",
+      "category": "Specialty & Other",
+      "cup_grams": 60.0,
+      "tbsp_grams": 3.75,
+      "tsp_grams": 1.25,
+      "ml_grams": 0.254,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 60.0,
+          "ounces": "2 1/8",
+          "cup_grams": 60.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-unsweetened-shredded",
+      "name": "Coconut (unsweetened, shredded)",
+      "category": "Specialty & Other",
+      "cup_grams": 53.0,
+      "tbsp_grams": 3.31,
+      "tsp_grams": 1.1,
+      "ml_grams": 0.224,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 53.0,
+          "ounces": "1 7/8",
+          "cup_grams": 53.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-cream-unsweetened",
+      "name": "Coconut cream (unsweetened)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 284.0,
+      "tbsp_grams": 17.75,
+      "tsp_grams": 5.92,
+      "ml_grams": 1.2,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 284.0,
+          "ounces": "10",
+          "cup_grams": 284.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-flour",
+      "name": "Coconut Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "coconut flour",
+          "cup_grams": 144.0,
+          "volumes": {
+            "1 Cup": 144.0,
+            "3/4 Cup": 108.0,
+            "2/3 Cup": 96.0,
+            "1/2 Cup": 72.0,
+            "1/3 Cup": 48.0,
+            "1/4 Cup": 36.0,
+            "3 TBSP": 27.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 16.0,
+        "diff_percent": 12.5,
+        "note": "LA Times (144.0g/cup) is 12.5% heavier than King Arthur (128.0g/cup)."
+      }
+    },
+    {
+      "id": "coconut-milk-evaporated",
+      "name": "Coconut milk (evaporated)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 242.0,
+      "tbsp_grams": 15.12,
+      "tsp_grams": 5.04,
+      "ml_grams": 1.023,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 242.0,
+          "ounces": "8 1/2",
+          "cup_grams": 242.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-milk-powder",
+      "name": "Coconut Milk Powder",
+      "category": "Dairy & Eggs",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-milk-canned-well-shaken",
+      "name": "Coconut milk; canned, well shaken",
+      "category": "Dairy & Eggs",
+      "cup_grams": 241.0,
+      "tbsp_grams": 15.06,
+      "tsp_grams": 5.02,
+      "ml_grams": 1.019,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 241.0,
+          "ounces": "8 1/2",
+          "cup_grams": 241.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-oil",
+      "name": "Coconut oil",
+      "category": "Fats & Oils",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "coconut-oil-solid",
+      "name": "Coconut oil solid",
+      "category": "Fats & Oils",
+      "cup_grams": 200.0,
+      "tbsp_grams": 12.5,
+      "tsp_grams": 4.17,
+      "ml_grams": 0.845,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "coconut oil solid",
+          "cup_grams": 200.0,
+          "volumes": {
+            "1 Cup": 200.0,
+            "3/4 Cup": 150.0,
+            "2/3 Cup": 133.0,
+            "1/2 Cup": 100.0,
+            "1/3 Cup": 67.0,
+            "1/4 Cup": 50.0,
+            "3 TBSP": 38.0,
+            "2 TBSP": 25.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "coconut-sugar",
+      "name": "Coconut sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 154.0,
+      "tbsp_grams": 9.62,
+      "tsp_grams": 3.21,
+      "ml_grams": 0.651,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 77.0,
+          "ounces": "2 3/4",
+          "cup_grams": 154.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "coconut palm sugar",
+          "cup_grams": 171.0,
+          "volumes": {
+            "1 Cup": 171.0,
+            "3/4 Cup": 128.0,
+            "2/3 Cup": 114.0,
+            "1/2 Cup": 86.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 17.0,
+        "diff_percent": 11.0,
+        "note": "LA Times (171.0g/cup) is 11.0% heavier than King Arthur (154.0g/cup)."
+      }
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "category": "Liquids & Syrups",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "coffee",
+          "cup_grams": 224.0,
+          "volumes": {
+            "1 Cup": 224.0,
+            "3/4 Cup": 168.0,
+            "2/3 Cup": 149.0,
+            "1/2 Cup": 112.0,
+            "1/3 Cup": 75.0,
+            "1/4 Cup": 56.0,
+            "3 TBSP": 42.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "confectioners-sugar-unsifted",
+      "name": "Confectioners' sugar (unsifted)",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "confectioners' sugar",
+          "cup_grams": 135.0,
+          "volumes": {
+            "1 Cup": 135.0,
+            "3/4 Cup": 101.0,
+            "2/3 Cup": 90.0,
+            "1/2 Cup": 68.0,
+            "1/3 Cup": 45.0,
+            "1/4 Cup": 34.0,
+            "3 TBSP": 25.0,
+            "2 TBSP": 17.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 22.0,
+        "diff_percent": 19.5,
+        "note": "LA Times (135.0g/cup) is 19.5% heavier than King Arthur (113.0g/cup)."
+      }
+    },
+    {
+      "id": "cookie-butter",
+      "name": "Cookie butter",
+      "category": "Fats & Oils",
+      "cup_grams": 288.0,
+      "tbsp_grams": 18.0,
+      "tsp_grams": 6.0,
+      "ml_grams": 1.217,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 72.0,
+          "ounces": "2 1/2",
+          "cup_grams": 288.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cookie-crumbs",
+      "name": "Cookie crumbs",
+      "category": "Grains & Flours",
+      "cup_grams": 85.0,
+      "tbsp_grams": 5.31,
+      "tsp_grams": 1.77,
+      "ml_grams": 0.359,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 85.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "corn-fresh-or-frozen",
+      "name": "Corn (fresh or frozen)",
+      "category": "Specialty & Other",
+      "cup_grams": 152.0,
+      "tbsp_grams": 9.5,
+      "tsp_grams": 3.17,
+      "ml_grams": 0.642,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 38.0,
+          "ounces": "1 1/3",
+          "cup_grams": 152.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "corn-popped",
+      "name": "Corn (popped)",
+      "category": "Specialty & Other",
+      "cup_grams": 5.2,
+      "tbsp_grams": 0.33,
+      "tsp_grams": 0.11,
+      "ml_grams": 0.022,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "4 cups",
+          "grams": 21.0,
+          "ounces": "3/4",
+          "cup_grams": 5.2,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "corn-flour",
+      "name": "Corn flour",
+      "category": "Grains & Flours",
+      "cup_grams": 131.0,
+      "tbsp_grams": 8.19,
+      "tsp_grams": 2.73,
+      "ml_grams": 0.554,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "corn flour",
+          "cup_grams": 131.0,
+          "volumes": {
+            "1 Cup": 131.0,
+            "3/4 Cup": 98.0,
+            "2/3 Cup": 87.0,
+            "1/2 Cup": 66.0,
+            "1/3 Cup": 44.0,
+            "1/4 Cup": 33.0,
+            "3 TBSP": 25.0,
+            "2 TBSP": 16.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "corn-syrup",
+      "name": "Corn syrup",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 312.0,
+      "tbsp_grams": 19.5,
+      "tsp_grams": 6.5,
+      "ml_grams": 1.319,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 312.0,
+          "ounces": "11",
+          "cup_grams": 312.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cornmeal-whole",
+      "name": "Cornmeal (whole)",
+      "category": "Grains & Flours",
+      "cup_grams": 138.0,
+      "tbsp_grams": 8.62,
+      "tsp_grams": 2.88,
+      "ml_grams": 0.583,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 138.0,
+          "ounces": "4 7/8",
+          "cup_grams": 138.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cornmeal-yellow-quaker",
+      "name": "Cornmeal (yellow, Quaker)",
+      "category": "Grains & Flours",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cornstarch",
+      "name": "Cornstarch",
+      "category": "Grains & Flours",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "cornstarch",
+          "cup_grams": 140.0,
+          "volumes": {
+            "1 Cup": 140.0,
+            "3/4 Cup": 105.0,
+            "2/3 Cup": 93.0,
+            "1/2 Cup": 70.0,
+            "1/3 Cup": 47.0,
+            "1/4 Cup": 35.0,
+            "3 TBSP": 26.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 28.0,
+        "diff_percent": 25.0,
+        "note": "LA Times (140.0g/cup) is 25.0% heavier than King Arthur (112.0g/cup)."
+      }
+    },
+    {
+      "id": "cottage-cheese",
+      "name": "Cottage cheese",
+      "category": "Dairy & Eggs",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cracked-wheat",
+      "name": "Cracked wheat",
+      "category": "Grains & Flours",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 149.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cranberries-dried",
+      "name": "Cranberries (dried)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cranberries-fresh-or-frozen",
+      "name": "Cranberries (fresh or frozen)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 99.0,
+      "tbsp_grams": 6.19,
+      "tsp_grams": 2.06,
+      "ml_grams": 0.418,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 99.0,
+          "ounces": "3 1/2",
+          "cup_grams": 99.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cranberry-juice",
+      "name": "Cranberry juice",
+      "category": "Liquids & Syrups",
+      "cup_grams": 241.0,
+      "tbsp_grams": 15.06,
+      "tsp_grams": 5.02,
+      "ml_grams": 1.019,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "cranberry juice",
+          "cup_grams": 241.0,
+          "volumes": {
+            "1 Cup": 241.0,
+            "3/4 Cup": 181.0,
+            "2/3 Cup": 161.0,
+            "1/2 Cup": 121.0,
+            "1/3 Cup": 80.0,
+            "1/4 Cup": 60.0,
+            "3 TBSP": 45.0,
+            "2 TBSP": 30.0,
+            "1 TBSP": 15.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "cream-heavy-cream-light-cream-or-half-half",
+      "name": "Cream (heavy cream, light cream, or half & half)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "heavy cream",
+          "cup_grams": 232.0,
+          "volumes": {
+            "1 Cup": 232.0,
+            "3/4 Cup": 174.0,
+            "2/3 Cup": 155.0,
+            "1/2 Cup": 116.0,
+            "1/3 Cup": 77.0,
+            "1/4 Cup": 58.0,
+            "3 TBSP": 44.0,
+            "2 TBSP": 29.0,
+            "1 TBSP": 15.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 5.0,
+        "diff_percent": 2.2,
+        "note": "LA Times (232.0g/cup) is 2.2% heavier than King Arthur (227.0g/cup)."
+      }
+    },
+    {
+      "id": "cream-cheese",
+      "name": "Cream cheese",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "cream cheese",
+          "cup_grams": 228.0,
+          "volumes": {
+            "1 Cup": 228.0,
+            "3/4 Cup": 171.0,
+            "2/3 Cup": 152.0,
+            "1/2 Cup": 114.0,
+            "1/3 Cup": 76.0,
+            "1/4 Cup": 57.0,
+            "3 TBSP": 43.0,
+            "2 TBSP": 29.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 1.0,
+        "diff_percent": 0.4,
+        "note": "Virtually identical between King Arthur (227.0g/cup) and LA Times (228.0g/cup)."
+      }
+    },
+    {
+      "id": "cream-of-coconut",
+      "name": "Cream of coconut",
+      "category": "Dairy & Eggs",
+      "cup_grams": 284.0,
+      "tbsp_grams": 17.75,
+      "tsp_grams": 5.92,
+      "ml_grams": 1.2,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 284.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cr-me-fraiche",
+      "name": "Crème fraiche",
+      "category": "Dairy & Eggs",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "crème fraiche",
+          "cup_grams": 284.0,
+          "volumes": {
+            "1 Cup": 284.0,
+            "3/4 Cup": 213.0,
+            "2/3 Cup": 189.0,
+            "1/2 Cup": 142.0,
+            "1/3 Cup": 95.0,
+            "1/4 Cup": 71.0,
+            "3 TBSP": 53.0,
+            "2 TBSP": 36.0,
+            "1 TBSP": 18.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 58.0,
+        "diff_percent": 25.7,
+        "note": "LA Times (284.0g/cup) is 25.7% heavier than King Arthur (226.0g/cup)."
+      }
+    },
+    {
+      "id": "currants",
+      "name": "Currants",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "currants",
+          "cup_grams": 128.0,
+          "volumes": {
+            "1 Cup": 128.0,
+            "3/4 Cup": 96.0,
+            "2/3 Cup": 85.0,
+            "1/2 Cup": 64.0,
+            "1/3 Cup": 43.0,
+            "1/4 Cup": 32.0,
+            "3 TBSP": 24.0,
+            "2 TBSP": 16.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -14.0,
+        "diff_percent": -9.9,
+        "note": "LA Times (128.0g/cup) is 9.9% lighter than King Arthur (142.0g/cup)."
+      }
+    },
+    {
+      "id": "dates-chopped",
+      "name": "Dates (chopped)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 149.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "demerara-sugar",
+      "name": "Demerara sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 220.0,
+      "tbsp_grams": 13.75,
+      "tsp_grams": 4.58,
+      "ml_grams": 0.93,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 220.0,
+          "ounces": "7 3/4",
+          "cup_grams": 220.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "demerrara sugar",
+          "cup_grams": 208.0,
+          "volumes": {
+            "1 Cup": 208.0,
+            "3/4 Cup": 156.0,
+            "2/3 Cup": 139.0,
+            "1/2 Cup": 104.0,
+            "1/3 Cup": 69.0,
+            "1/4 Cup": 52.0,
+            "3 TBSP": 39.0,
+            "2 TBSP": 26.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -12.0,
+        "diff_percent": -5.5,
+        "note": "LA Times (208.0g/cup) is 5.5% lighter than King Arthur (220.0g/cup)."
+      }
+    },
+    {
+      "id": "dessicated-coconut",
+      "name": "Dessicated coconut",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "dessicated coconut",
+          "cup_grams": 100.0,
+          "volumes": {
+            "1 Cup": 100.0,
+            "3/4 Cup": 75.0,
+            "2/3 Cup": 67.0,
+            "1/2 Cup": 50.0,
+            "1/3 Cup": 33.0,
+            "1/4 Cup": 25.0,
+            "3 TBSP": 19.0,
+            "2 TBSP": 13.0,
+            "1 TBSP": 6.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "diced-mango",
+      "name": "Diced mango",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 333.0,
+      "tbsp_grams": 20.81,
+      "tsp_grams": 6.94,
+      "ml_grams": 1.408,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "diced mango",
+          "cup_grams": 333.0,
+          "volumes": {
+            "1 Cup": 333.0,
+            "3/4 Cup": 250.0,
+            "2/3 Cup": 222.0,
+            "1/2 Cup": 167.0,
+            "1/3 Cup": 111.0,
+            "1/4 Cup": 83.0,
+            "3 TBSP": 62.0,
+            "2 TBSP": 42.0,
+            "1 TBSP": 21.0,
+            "1 TSP": 7.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "diced-nectarines",
+      "name": "Diced nectarines",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 168.0,
+      "tbsp_grams": 10.5,
+      "tsp_grams": 3.5,
+      "ml_grams": 0.71,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "diced nectarines",
+          "cup_grams": 168.0,
+          "volumes": {
+            "1 Cup": 168.0,
+            "3/4 Cup": 126.0,
+            "2/3 Cup": 112.0,
+            "1/2 Cup": 84.0,
+            "1/3 Cup": 56.0,
+            "1/4 Cup": 42.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "diced-pear",
+      "name": "Diced pear",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 198.0,
+      "tbsp_grams": 12.38,
+      "tsp_grams": 4.12,
+      "ml_grams": 0.837,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "diced pear",
+          "cup_grams": 198.0,
+          "volumes": {
+            "1 Cup": 198.0,
+            "3/4 Cup": 149.0,
+            "2/3 Cup": 132.0,
+            "1/2 Cup": 99.0,
+            "1/3 Cup": 66.0,
+            "1/4 Cup": 50.0,
+            "3 TBSP": 37.0,
+            "2 TBSP": 25.0,
+            "1 TBSP": 12.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "diced-pineapple",
+      "name": "Diced pineapple",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "diced pineapple",
+          "cup_grams": 170.0,
+          "volumes": {
+            "1 Cup": 170.0,
+            "3/4 Cup": 128.0,
+            "2/3 Cup": 113.0,
+            "1/2 Cup": 85.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "diced-strawberries",
+      "name": "Diced strawberries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "diced strawberries",
+          "cup_grams": 170.0,
+          "volumes": {
+            "1 Cup": 170.0,
+            "3/4 Cup": 128.0,
+            "2/3 Cup": 113.0,
+            "1/2 Cup": 85.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "drained-cherries",
+      "name": "Drained cherries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 152.0,
+      "tbsp_grams": 9.5,
+      "tsp_grams": 3.17,
+      "ml_grams": 0.642,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "drained cherries",
+          "cup_grams": 152.0,
+          "volumes": {
+            "1 Cup": 152.0,
+            "3/4 Cup": 114.0,
+            "2/3 Cup": 101.0,
+            "1/2 Cup": 76.0,
+            "1/3 Cup": 51.0,
+            "1/4 Cup": 38.0,
+            "3 TBSP": 29.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "dried-apricots",
+      "name": "Dried apricots",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "dried apricots",
+          "cup_grams": 184.0,
+          "volumes": {
+            "1 Cup": 184.0,
+            "3/4 Cup": 138.0,
+            "2/3 Cup": 123.0,
+            "1/2 Cup": 92.0,
+            "1/3 Cup": 61.0,
+            "1/4 Cup": 46.0,
+            "3 TBSP": 35.0,
+            "2 TBSP": 23.0,
+            "1 TBSP": 12.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "dried-blueberries",
+      "name": "Dried blueberries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "dried blueberries",
+          "cup_grams": 184.0,
+          "volumes": {
+            "1 Cup": 184.0,
+            "3/4 Cup": 138.0,
+            "2/3 Cup": 123.0,
+            "1/2 Cup": 92.0,
+            "1/3 Cup": 61.0,
+            "1/4 Cup": 46.0,
+            "3 TBSP": 35.0,
+            "2 TBSP": 23.0,
+            "1 TBSP": 12.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "dried-blueberry-powder",
+      "name": "Dried Blueberry Powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "dried-cherries",
+      "name": "Dried cherries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 154.0,
+      "tbsp_grams": 9.62,
+      "tsp_grams": 3.21,
+      "ml_grams": 0.651,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "dried cherries",
+          "cup_grams": 154.0,
+          "volumes": {
+            "1 Cup": 154.0,
+            "3/4 Cup": 116.0,
+            "2/3 Cup": 103.0,
+            "1/2 Cup": 77.0,
+            "1/3 Cup": 51.0,
+            "1/4 Cup": 39.0,
+            "3 TBSP": 29.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "dried-cranberries",
+      "name": "Dried cranberries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 160.0,
+      "tbsp_grams": 10.0,
+      "tsp_grams": 3.33,
+      "ml_grams": 0.676,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "dried cranberries",
+          "cup_grams": 160.0,
+          "volumes": {
+            "1 Cup": 160.0,
+            "3/4 Cup": 120.0,
+            "2/3 Cup": 107.0,
+            "1/2 Cup": 80.0,
+            "1/3 Cup": 53.0,
+            "1/4 Cup": 40.0,
+            "3 TBSP": 30.0,
+            "2 TBSP": 20.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "dried-figs",
+      "name": "Dried figs",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 199.0,
+      "tbsp_grams": 12.44,
+      "tsp_grams": 4.15,
+      "ml_grams": 0.841,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "dried figs",
+          "cup_grams": 199.0,
+          "volumes": {
+            "1 Cup": 199.0,
+            "3/4 Cup": 149.0,
+            "2/3 Cup": 133.0,
+            "1/2 Cup": 100.0,
+            "1/3 Cup": 66.0,
+            "1/4 Cup": 50.0,
+            "3 TBSP": 37.0,
+            "2 TBSP": 25.0,
+            "1 TBSP": 12.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "dried-milk-baker-s-special-dry-milk",
+      "name": "Dried milk (Baker's Special Dry Milk)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "dried-nonfat-milk-powdered",
+      "name": "Dried nonfat milk (powdered)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "dried-potato-flakes-instant-mashed-potatoes",
+      "name": "Dried potato flakes (instant mashed potatoes)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 86.0,
+      "tbsp_grams": 5.38,
+      "tsp_grams": 1.79,
+      "ml_grams": 0.364,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 43.0,
+          "ounces": "1 1/2",
+          "cup_grams": 86.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "dried-whole-milk-powdered",
+      "name": "Dried whole milk (powdered)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 100.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "durum-flour",
+      "name": "Durum Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 124.0,
+      "tbsp_grams": 7.75,
+      "tsp_grams": 2.58,
+      "ml_grams": 0.524,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 124.0,
+          "ounces": "4 3/8",
+          "cup_grams": 124.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "easy-roll-dough-improver",
+      "name": "Easy Roll Dough Improver",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "egg-fresh",
+      "name": "Egg (fresh)",
+      "category": "Dairy & Eggs",
+      "cup_grams": null,
+      "tbsp_grams": null,
+      "tsp_grams": null,
+      "ml_grams": null,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 large",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": null,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "egg-white-fresh",
+      "name": "Egg white (fresh)",
+      "category": "Dairy & Eggs",
+      "cup_grams": null,
+      "tbsp_grams": null,
+      "tsp_grams": null,
+      "ml_grams": null,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 large",
+          "grams": 32.5,
+          "ounces": "1 to 1 1/4",
+          "cup_grams": null,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "egg-whites-dried",
+      "name": "Egg whites (dried)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 88.0,
+      "tbsp_grams": 5.5,
+      "tsp_grams": 1.83,
+      "ml_grams": 0.372,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 11.0,
+          "ounces": "3/8",
+          "cup_grams": 88.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "egg-yolk-fresh",
+      "name": "Egg yolk (fresh)",
+      "category": "Dairy & Eggs",
+      "cup_grams": null,
+      "tbsp_grams": null,
+      "tsp_grams": null,
+      "ml_grams": null,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 large",
+          "grams": 14.0,
+          "ounces": "1/2",
+          "cup_grams": null,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "espresso-powder",
+      "name": "Espresso Powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 7.0,
+          "ounces": "1/4",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "everything-bagel-topping",
+      "name": "Everything Bagel Topping",
+      "category": "Specialty & Other",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "figs-dried-chopped",
+      "name": "Figs (dried, chopped)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 149.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "fine-cornmeal",
+      "name": "Fine cornmeal",
+      "category": "Grains & Flours",
+      "cup_grams": 147.0,
+      "tbsp_grams": 9.19,
+      "tsp_grams": 3.06,
+      "ml_grams": 0.621,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "fine cornmeal",
+          "cup_grams": 147.0,
+          "volumes": {
+            "1 Cup": 147.0,
+            "3/4 Cup": 110.0,
+            "2/3 Cup": 98.0,
+            "1/2 Cup": 74.0,
+            "1/3 Cup": 49.0,
+            "1/4 Cup": 37.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "first-clear-flour",
+      "name": "First Clear Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "flax-meal",
+      "name": "Flax meal",
+      "category": "Grains & Flours",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 100.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "flax-seeds",
+      "name": "Flax seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 200.0,
+      "tbsp_grams": 12.5,
+      "tsp_grams": 4.17,
+      "ml_grams": 0.845,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "flax seeds",
+          "cup_grams": 200.0,
+          "volumes": {
+            "1 Cup": 200.0,
+            "3/4 Cup": 150.0,
+            "2/3 Cup": 133.0,
+            "1/2 Cup": 100.0,
+            "1/3 Cup": 67.0,
+            "1/4 Cup": 50.0,
+            "3 TBSP": 38.0,
+            "2 TBSP": 25.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "flaxseed",
+      "name": "Flaxseed",
+      "category": "Nuts & Seeds",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "formaggio-italiano-cheese-and-herb-blend",
+      "name": "Formaggio Italiano Cheese and Herb Blend",
+      "category": "Dairy & Eggs",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 30.0,
+          "ounces": "1",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "freeze-dried-raspberries",
+      "name": "Freeze-dried raspberries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 28.0,
+      "tbsp_grams": 1.75,
+      "tsp_grams": 0.58,
+      "ml_grams": 0.118,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "freeze-dried raspberries",
+          "cup_grams": 28.0,
+          "volumes": {
+            "1 Cup": 28.0,
+            "3/4 Cup": 21.0,
+            "2/3 Cup": 19.0,
+            "1/2 Cup": 14.0,
+            "1/3 Cup": 9.0,
+            "1/4 Cup": 7.0,
+            "3 TBSP": 5.0,
+            "2 TBSP": 4.0,
+            "1 TBSP": 2.0,
+            "1 TSP": 1.0,
+            "1/2 TSP": 0.0,
+            "1/4 TSP": 0.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "french-style-flour",
+      "name": "French-Style Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "fresh-apple-cider",
+      "name": "Fresh apple cider",
+      "category": "Liquids & Syrups",
+      "cup_grams": 266.0,
+      "tbsp_grams": 16.62,
+      "tsp_grams": 5.54,
+      "ml_grams": 1.124,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "fresh apple cider",
+          "cup_grams": 266.0,
+          "volumes": {
+            "1 Cup": 266.0,
+            "3/4 Cup": 200.0,
+            "2/3 Cup": 177.0,
+            "1/2 Cup": 133.0,
+            "1/3 Cup": 89.0,
+            "1/4 Cup": 67.0,
+            "3 TBSP": 50.0,
+            "2 TBSP": 33.0,
+            "1 TBSP": 17.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "fresh-corn-kernels",
+      "name": "Fresh corn kernels",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 158.0,
+      "tbsp_grams": 9.88,
+      "tsp_grams": 3.29,
+      "ml_grams": 0.668,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "fresh corn kernels",
+          "cup_grams": 158.0,
+          "volumes": {
+            "1 Cup": 158.0,
+            "3/4 Cup": 119.0,
+            "2/3 Cup": 105.0,
+            "1/2 Cup": 79.0,
+            "1/3 Cup": 53.0,
+            "1/4 Cup": 40.0,
+            "3 TBSP": 30.0,
+            "2 TBSP": 20.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "fruitcake-fruit-blend",
+      "name": "Fruitcake Fruit Blend",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "garlic-cloves-in-skin-for-roasting",
+      "name": "Garlic (cloves, in skin for roasting)",
+      "category": "Leaveners & Spices",
+      "cup_grams": null,
+      "tbsp_grams": null,
+      "tsp_grams": null,
+      "ml_grams": null,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 large head",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": null,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "garlic-minced",
+      "name": "Garlic (minced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 224.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "garlic-peeled-and-sliced",
+      "name": "Garlic (peeled and sliced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 149.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "ghee",
+      "name": "Ghee",
+      "category": "Fats & Oils",
+      "cup_grams": 176.0,
+      "tbsp_grams": 11.0,
+      "tsp_grams": 3.67,
+      "ml_grams": 0.744,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 44.0,
+          "ounces": "1 1/2",
+          "cup_grams": 176.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "ginger-fresh-sliced",
+      "name": "Ginger (fresh, sliced)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 228.0,
+      "tbsp_grams": 14.25,
+      "tsp_grams": 4.75,
+      "ml_grams": 0.964,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 228.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-all-purpose-baking-mix",
+      "name": "Gluten-Free All-Purpose Baking Mix",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-all-purpose-flour",
+      "name": "Gluten-Free All-Purpose Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-bread-flour",
+      "name": "Gluten-Free Bread Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-measure-for-measure-flour",
+      "name": "Gluten-Free Measure for Measure Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-pizza-flour",
+      "name": "Gluten-Free Pizza Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 100.0,
+          "ounces": "3 1/2",
+          "cup_grams": 100.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-sourdough-starter-made-with-gluten-free-bread-flour",
+      "name": "Gluten-Free sourdough starter (made with Gluten-Free Bread Flour)",
+      "category": "Grains & Flours",
+      "cup_grams": 177.5,
+      "tbsp_grams": 11.09,
+      "tsp_grams": 3.7,
+      "ml_grams": 0.75,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 177.5,
+          "ounces": "6 to 6 1/2",
+          "cup_grams": 177.5,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "gluten-free-sourdough-starter-made-with-gluten-free-measure-for-measure-flour",
+      "name": "Gluten-Free sourdough starter (made with Gluten-Free Measure for Measure Flour)",
+      "category": "Grains & Flours",
+      "cup_grams": 234.0,
+      "tbsp_grams": 14.62,
+      "tsp_grams": 4.88,
+      "ml_grams": 0.989,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 234.0,
+          "ounces": "8 to 8 1/2",
+          "cup_grams": 234.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "glutinous-rice-flour",
+      "name": "Glutinous rice flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "golden-wheat-flour",
+      "name": "Golden Wheat Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "graham-cracker-crumbs-store-bought-or-crushed-from-whole",
+      "name": "Graham cracker crumbs (store-bought or crushed from whole)",
+      "category": "Grains & Flours",
+      "cup_grams": 100.0,
+      "tbsp_grams": 6.25,
+      "tsp_grams": 2.08,
+      "ml_grams": 0.423,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup (6 to 7 crackers)",
+          "grams": 100.0,
+          "ounces": "3 1/2",
+          "cup_grams": 100.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "graham cracker crumbs",
+          "cup_grams": 128.0,
+          "volumes": {
+            "1 Cup": 128.0,
+            "3/4 Cup": 96.0,
+            "2/3 Cup": 85.0,
+            "1/2 Cup": 64.0,
+            "1/3 Cup": 43.0,
+            "1/4 Cup": 32.0,
+            "3 TBSP": 24.0,
+            "2 TBSP": 16.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 28.0,
+        "diff_percent": 28.0,
+        "note": "LA Times (128.0g/cup) is 28.0% heavier than King Arthur (100.0g/cup)."
+      }
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "category": "Specialty & Other",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "grape-nuts",
+      "name": "Grape Nuts",
+      "category": "Specialty & Other",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "grapes",
+          "cup_grams": 170.0,
+          "volumes": {
+            "1 Cup": 170.0,
+            "3/4 Cup": 128.0,
+            "2/3 Cup": 113.0,
+            "1/2 Cup": 85.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "greek-yogurt",
+      "name": "Greek yogurt",
+      "category": "Dairy & Eggs",
+      "cup_grams": 234.0,
+      "tbsp_grams": 14.62,
+      "tsp_grams": 4.88,
+      "ml_grams": 0.989,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "Greek yogurt",
+          "cup_grams": 234.0,
+          "volumes": {
+            "1 Cup": 234.0,
+            "3/4 Cup": 176.0,
+            "2/3 Cup": 156.0,
+            "1/2 Cup": 117.0,
+            "1/3 Cup": 78.0,
+            "1/4 Cup": 59.0,
+            "3 TBSP": 44.0,
+            "2 TBSP": 29.0,
+            "1 TBSP": 15.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "ground-flax",
+      "name": "Ground flax",
+      "category": "Nuts & Seeds",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "ground flax",
+          "cup_grams": 120.0,
+          "volumes": {
+            "1 Cup": 120.0,
+            "3/4 Cup": 90.0,
+            "2/3 Cup": 80.0,
+            "1/2 Cup": 60.0,
+            "1/3 Cup": 40.0,
+            "1/4 Cup": 30.0,
+            "3 TBSP": 23.0,
+            "2 TBSP": 15.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "guava-paste",
+      "name": "Guava paste",
+      "category": "Specialty & Other",
+      "cup_grams": 400.0,
+      "tbsp_grams": 25.0,
+      "tsp_grams": 8.33,
+      "ml_grams": 1.691,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 100.0,
+          "ounces": "3 1/2",
+          "cup_grams": 400.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "half-and-half",
+      "name": "Half-and-half",
+      "category": "Dairy & Eggs",
+      "cup_grams": 248.0,
+      "tbsp_grams": 15.5,
+      "tsp_grams": 5.17,
+      "ml_grams": 1.048,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "half-and-half",
+          "cup_grams": 248.0,
+          "volumes": {
+            "1 Cup": 248.0,
+            "3/4 Cup": 186.0,
+            "2/3 Cup": 165.0,
+            "1/2 Cup": 124.0,
+            "1/3 Cup": 83.0,
+            "1/4 Cup": 62.0,
+            "3 TBSP": 47.0,
+            "2 TBSP": 31.0,
+            "1 TBSP": 16.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "harvest-grains-blend",
+      "name": "Harvest Grains Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 148.0,
+      "tbsp_grams": 9.25,
+      "tsp_grams": 3.08,
+      "ml_grams": 0.626,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 74.0,
+          "ounces": "2 5/8",
+          "cup_grams": 148.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "hazelnut-flour",
+      "name": "Hazelnut flour",
+      "category": "Grains & Flours",
+      "cup_grams": 89.0,
+      "tbsp_grams": 5.56,
+      "tsp_grams": 1.85,
+      "ml_grams": 0.376,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 89.0,
+          "ounces": "3 1/8",
+          "cup_grams": 89.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "hazelnut-meal",
+      "name": "Hazelnut meal",
+      "category": "Grains & Flours",
+      "cup_grams": 102.0,
+      "tbsp_grams": 6.38,
+      "tsp_grams": 2.12,
+      "ml_grams": 0.431,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "hazelnut meal",
+          "cup_grams": 102.0,
+          "volumes": {
+            "1 Cup": 102.0,
+            "3/4 Cup": 77.0,
+            "2/3 Cup": 68.0,
+            "1/2 Cup": 51.0,
+            "1/3 Cup": 34.0,
+            "1/4 Cup": 26.0,
+            "3 TBSP": 19.0,
+            "2 TBSP": 13.0,
+            "1 TBSP": 6.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "hazelnut-praline-paste",
+      "name": "Hazelnut Praline Paste",
+      "category": "Nuts & Seeds",
+      "cup_grams": 312.0,
+      "tbsp_grams": 19.5,
+      "tsp_grams": 6.5,
+      "ml_grams": 1.319,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 312.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "hazelnut praline paste",
+          "cup_grams": 286.0,
+          "volumes": {
+            "1 Cup": 286.0,
+            "3/4 Cup": 215.0,
+            "2/3 Cup": 191.0,
+            "1/2 Cup": 143.0,
+            "1/3 Cup": 95.0,
+            "1/4 Cup": 72.0,
+            "3 TBSP": 54.0,
+            "2 TBSP": 36.0,
+            "1 TBSP": 18.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -26.0,
+        "diff_percent": -8.3,
+        "note": "LA Times (286.0g/cup) is 8.3% lighter than King Arthur (312.0g/cup)."
+      }
+    },
+    {
+      "id": "hazelnut-spread",
+      "name": "Hazelnut spread",
+      "category": "Nuts & Seeds",
+      "cup_grams": 320.0,
+      "tbsp_grams": 20.0,
+      "tsp_grams": 6.67,
+      "ml_grams": 1.353,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 160.0,
+          "ounces": "5 5/8",
+          "cup_grams": 320.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "hazelnuts-whole",
+      "name": "Hazelnuts (whole)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "hazelnuts",
+          "cup_grams": 146.0,
+          "volumes": {
+            "1 Cup": 146.0,
+            "3/4 Cup": 110.0,
+            "2/3 Cup": 97.0,
+            "1/2 Cup": 73.0,
+            "1/3 Cup": 49.0,
+            "1/4 Cup": 37.0,
+            "3 TBSP": 27.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 4.0,
+        "diff_percent": 2.8,
+        "note": "LA Times (146.0g/cup) is 2.8% heavier than King Arthur (142.0g/cup)."
+      }
+    },
+    {
+      "id": "hi-maize-natural-fiber",
+      "name": "Hi-Maize Natural Fiber",
+      "category": "Specialty & Other",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 32.0,
+          "ounces": "1 1/8",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "high-gluten-flour",
+      "name": "High-Gluten Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "category": "Liquids & Syrups",
+      "cup_grams": 336.0,
+      "tbsp_grams": 21.0,
+      "tsp_grams": 7.0,
+      "ml_grams": 1.42,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 21.0,
+          "ounces": "3/4",
+          "cup_grams": 336.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "honey",
+          "cup_grams": 340.0,
+          "volumes": {
+            "1 Cup": 340.0,
+            "3/4 Cup": 255.0,
+            "2/3 Cup": 227.0,
+            "1/2 Cup": 170.0,
+            "1/3 Cup": 113.0,
+            "1/4 Cup": 85.0,
+            "3 TBSP": 64.0,
+            "2 TBSP": 43.0,
+            "1 TBSP": 21.0,
+            "1 TSP": 7.0,
+            "1/2 TSP": 4.0,
+            "1/4 TSP": 2.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 4.0,
+        "diff_percent": 1.2,
+        "note": "LA Times (340.0g/cup) is 1.2% heavier than King Arthur (336.0g/cup)."
+      }
+    },
+    {
+      "id": "instant-clearjel",
+      "name": "Instant Clearjel",
+      "category": "Specialty & Other",
+      "cup_grams": 176.0,
+      "tbsp_grams": 11.0,
+      "tsp_grams": 3.67,
+      "ml_grams": 0.744,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 11.0,
+          "ounces": "3/8",
+          "cup_grams": 176.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "irish-style-flour",
+      "name": "Irish-Style Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 110.0,
+      "tbsp_grams": 6.88,
+      "tsp_grams": 2.29,
+      "ml_grams": 0.465,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 110.0,
+          "ounces": "3 7/8",
+          "cup_grams": 110.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "italian-herb-seasoning",
+      "name": "Italian Herb Seasoning",
+      "category": "Specialty & Other",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 14.0,
+          "ounces": "1/2",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "italian-style-flour",
+      "name": "Italian-Style Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "jam-or-preserves",
+      "name": "Jam or preserves",
+      "category": "Specialty & Other",
+      "cup_grams": 340.0,
+      "tbsp_grams": 21.25,
+      "tsp_grams": 7.08,
+      "ml_grams": 1.437,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 340.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "jammy-bits",
+      "name": "Jammy Bits",
+      "category": "Specialty & Other",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 184.0,
+          "ounces": "6 1/2",
+          "cup_grams": 184.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "keto-wheat-flour",
+      "name": "Keto Wheat Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "keto-wheat-pizza-crust-mix",
+      "name": "Keto Wheat Pizza Crust Mix",
+      "category": "Grains & Flours",
+      "cup_grams": 110.0,
+      "tbsp_grams": 6.88,
+      "tsp_grams": 2.29,
+      "ml_grams": 0.465,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 110.0,
+          "ounces": "3 7/8",
+          "cup_grams": 110.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "key-lime-juice",
+      "name": "Key Lime Juice",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "labne",
+      "name": "Labne",
+      "category": "Dairy & Eggs",
+      "cup_grams": 210.0,
+      "tbsp_grams": 13.12,
+      "tsp_grams": 4.38,
+      "ml_grams": 0.888,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "labne",
+          "cup_grams": 210.0,
+          "volumes": {
+            "1 Cup": 210.0,
+            "3/4 Cup": 158.0,
+            "2/3 Cup": 140.0,
+            "1/2 Cup": 105.0,
+            "1/3 Cup": 70.0,
+            "1/4 Cup": 53.0,
+            "3 TBSP": 39.0,
+            "2 TBSP": 26.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "lard",
+      "name": "Lard",
+      "category": "Fats & Oils",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "leeks-diced",
+      "name": "Leeks (diced)",
+      "category": "Specialty & Other",
+      "cup_grams": 92.0,
+      "tbsp_grams": 5.75,
+      "tsp_grams": 1.92,
+      "ml_grams": 0.389,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 92.0,
+          "ounces": "3 1/4",
+          "cup_grams": 92.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "lemon-crumbles",
+      "name": "Lemon Crumbles",
+      "category": "Grains & Flours",
+      "cup_grams": 180.0,
+      "tbsp_grams": 11.25,
+      "tsp_grams": 3.75,
+      "ml_grams": 0.761,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 180.0,
+          "ounces": "6 1/3",
+          "cup_grams": 180.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "lemon-curd",
+      "name": "Lemon Curd",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "lemon-juice",
+      "name": "Lemon juice",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 tablespoon",
+          "grams": 14.0,
+          "ounces": "1/2",
+          "cup_grams": 224.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "lemon-juice-powder",
+      "name": "Lemon Juice Powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "lime-juice-powder",
+      "name": "Lime Juice Powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "macadamia-nuts-whole",
+      "name": "Macadamia nuts (whole)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 149.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "macadamia nuts",
+          "cup_grams": 145.0,
+          "volumes": {
+            "1 Cup": 145.0,
+            "3/4 Cup": 109.0,
+            "2/3 Cup": 97.0,
+            "1/2 Cup": 73.0,
+            "1/3 Cup": 48.0,
+            "1/4 Cup": 36.0,
+            "3 TBSP": 27.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -4.0,
+        "diff_percent": -2.7,
+        "note": "LA Times (145.0g/cup) is 2.7% lighter than King Arthur (149.0g/cup)."
+      }
+    },
+    {
+      "id": "malt-syrup",
+      "name": "Malt syrup",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 344.0,
+      "tbsp_grams": 21.5,
+      "tsp_grams": 7.17,
+      "ml_grams": 1.454,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 43.0,
+          "ounces": "1 1/2",
+          "cup_grams": 344.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "malted-milk-powder",
+      "name": "Malted Milk Powder",
+      "category": "Dairy & Eggs",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "malted-wheat-flakes",
+      "name": "Malted Wheat Flakes",
+      "category": "Grains & Flours",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 64.0,
+          "ounces": "2 1/4",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "maple-cinnamon-french-toast-sugar",
+      "name": "Maple Cinnamon French Toast Sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 192.0,
+      "tbsp_grams": 12.0,
+      "tsp_grams": 4.0,
+      "ml_grams": 0.812,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 48.0,
+          "ounces": "1 2/3",
+          "cup_grams": 192.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "maple-cream",
+      "name": "Maple Cream",
+      "category": "Dairy & Eggs",
+      "cup_grams": 336.0,
+      "tbsp_grams": 21.0,
+      "tsp_grams": 7.0,
+      "ml_grams": 1.42,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 42.0,
+          "ounces": "1 1/2",
+          "cup_grams": 336.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "maple-sugar",
+      "name": "Maple sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 78.0,
+          "ounces": "2 3/4",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "maple-syrup",
+      "name": "Maple syrup",
+      "category": "Liquids & Syrups",
+      "cup_grams": 312.0,
+      "tbsp_grams": 19.5,
+      "tsp_grams": 6.5,
+      "ml_grams": 1.319,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 312.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "maple syrup",
+          "cup_grams": 327.0,
+          "volumes": {
+            "1 Cup": 327.0,
+            "3/4 Cup": 245.0,
+            "2/3 Cup": 218.0,
+            "1/2 Cup": 164.0,
+            "1/3 Cup": 109.0,
+            "1/4 Cup": 82.0,
+            "3 TBSP": 61.0,
+            "2 TBSP": 41.0,
+            "1 TBSP": 20.0,
+            "1 TSP": 7.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 15.0,
+        "diff_percent": 4.8,
+        "note": "LA Times (327.0g/cup) is 4.8% heavier than King Arthur (312.0g/cup)."
+      }
+    },
+    {
+      "id": "marcona-almonds",
+      "name": "Marcona almonds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 104.0,
+      "tbsp_grams": 6.5,
+      "tsp_grams": 2.17,
+      "ml_grams": 0.44,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "marcona almonds",
+          "cup_grams": 104.0,
+          "volumes": {
+            "1 Cup": 104.0,
+            "3/4 Cup": 78.0,
+            "2/3 Cup": 69.0,
+            "1/2 Cup": 52.0,
+            "1/3 Cup": 35.0,
+            "1/4 Cup": 26.0,
+            "3 TBSP": 20.0,
+            "2 TBSP": 13.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "marmalade",
+      "name": "Marmalade",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 292.0,
+      "tbsp_grams": 18.25,
+      "tsp_grams": 6.08,
+      "ml_grams": 1.234,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "marmalade",
+          "cup_grams": 292.0,
+          "volumes": {
+            "1 Cup": 292.0,
+            "3/4 Cup": 219.0,
+            "2/3 Cup": 195.0,
+            "1/2 Cup": 146.0,
+            "1/3 Cup": 97.0,
+            "1/4 Cup": 73.0,
+            "3 TBSP": 55.0,
+            "2 TBSP": 37.0,
+            "1 TBSP": 18.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "marshmallow-fluff",
+      "name": "Marshmallow Fluff®",
+      "category": "Specialty & Other",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "marshmallow-spread-homemade",
+      "name": "Marshmallow spread, homemade",
+      "category": "Specialty & Other",
+      "cup_grams": 72.0,
+      "tbsp_grams": 4.5,
+      "tsp_grams": 1.5,
+      "ml_grams": 0.304,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 72.0,
+          "ounces": "2 1/2",
+          "cup_grams": 72.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "marshmallow-spread-store-bought",
+      "name": "Marshmallow spread, store-bought",
+      "category": "Specialty & Other",
+      "cup_grams": 123.0,
+      "tbsp_grams": 7.69,
+      "tsp_grams": 2.56,
+      "ml_grams": 0.52,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 123.0,
+          "ounces": "4 1/3",
+          "cup_grams": 123.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "marshmallows-mini",
+      "name": "Marshmallows (mini)",
+      "category": "Specialty & Other",
+      "cup_grams": 43.0,
+      "tbsp_grams": 2.69,
+      "tsp_grams": 0.9,
+      "ml_grams": 0.182,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 43.0,
+          "ounces": "1 1/2",
+          "cup_grams": 43.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "marzipan",
+      "name": "Marzipan",
+      "category": "Specialty & Other",
+      "cup_grams": 290.0,
+      "tbsp_grams": 18.12,
+      "tsp_grams": 6.04,
+      "ml_grams": 1.226,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 290.0,
+          "ounces": "10 1/8",
+          "cup_grams": 290.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "masa-harina",
+      "name": "Masa Harina",
+      "category": "Specialty & Other",
+      "cup_grams": 93.0,
+      "tbsp_grams": 5.81,
+      "tsp_grams": 1.94,
+      "ml_grams": 0.393,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 93.0,
+          "ounces": "3 1/4",
+          "cup_grams": 93.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "mascarpone-cheese",
+      "name": "Mascarpone cheese",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "mashed-banana",
+      "name": "Mashed banana",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 245.0,
+      "tbsp_grams": 15.31,
+      "tsp_grams": 5.1,
+      "ml_grams": 1.036,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "mashed banana",
+          "cup_grams": 245.0,
+          "volumes": {
+            "1 Cup": 245.0,
+            "3/4 Cup": 184.0,
+            "2/3 Cup": 163.0,
+            "1/2 Cup": 123.0,
+            "1/3 Cup": 82.0,
+            "1/4 Cup": 61.0,
+            "3 TBSP": 46.0,
+            "2 TBSP": 31.0,
+            "1 TBSP": 15.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "mashed-potatoes",
+      "name": "Mashed potatoes",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 213.0,
+      "tbsp_grams": 13.31,
+      "tsp_grams": 4.44,
+      "ml_grams": 0.9,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 213.0,
+          "ounces": "7 1/2",
+          "cup_grams": 213.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "mashed-sweet-potatoes",
+      "name": "Mashed sweet potatoes",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 240.0,
+      "tbsp_grams": 15.0,
+      "tsp_grams": 5.0,
+      "ml_grams": 1.014,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 240.0,
+          "ounces": "8 1/2",
+          "cup_grams": 240.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "matcha-powder",
+      "name": "Matcha powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 12.0,
+          "ounces": "3/8",
+          "cup_grams": 96.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "mayonnaise",
+      "name": "Mayonnaise",
+      "category": "Specialty & Other",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "medium-rye-flour",
+      "name": "Medium Rye Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "rye flour",
+          "cup_grams": 148.0,
+          "volumes": {
+            "1 Cup": 148.0,
+            "3/4 Cup": 111.0,
+            "2/3 Cup": 99.0,
+            "1/2 Cup": 74.0,
+            "1/3 Cup": 49.0,
+            "1/4 Cup": 37.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 42.0,
+        "diff_percent": 39.6,
+        "note": "LA Times (148.0g/cup) is 39.6% heavier than King Arthur (106.0g/cup)."
+      }
+    },
+    {
+      "id": "meringue-powder",
+      "name": "Meringue powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 172.0,
+      "tbsp_grams": 10.75,
+      "tsp_grams": 3.58,
+      "ml_grams": 0.727,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 43.0,
+          "ounces": "1 1/2",
+          "cup_grams": 172.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "milk-evaporated",
+      "name": "Milk (evaporated)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 226.0,
+      "tbsp_grams": 14.12,
+      "tsp_grams": 4.71,
+      "ml_grams": 0.955,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 226.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "milk-fresh",
+      "name": "Milk (fresh)",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "milk",
+          "cup_grams": 224.0,
+          "volumes": {
+            "1 Cup": 224.0,
+            "3/4 Cup": 168.0,
+            "2/3 Cup": 149.0,
+            "1/2 Cup": 112.0,
+            "1/3 Cup": 75.0,
+            "1/4 Cup": 56.0,
+            "3 TBSP": 42.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -3.0,
+        "diff_percent": -1.3,
+        "note": "LA Times (224.0g/cup) is 1.3% lighter than King Arthur (227.0g/cup)."
+      }
+    },
+    {
+      "id": "millet-whole",
+      "name": "Millet (whole)",
+      "category": "Grains & Flours",
+      "cup_grams": 206.0,
+      "tbsp_grams": 12.88,
+      "tsp_grams": 4.29,
+      "ml_grams": 0.871,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 103.0,
+          "ounces": "3 5/8",
+          "cup_grams": 206.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "mini-chocolate-chips",
+      "name": "Mini chocolate chips",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 177.0,
+      "tbsp_grams": 11.06,
+      "tsp_grams": 3.69,
+      "ml_grams": 0.748,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 177.0,
+          "ounces": "6 1/4",
+          "cup_grams": 177.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "mini-diced-ginger",
+      "name": "Mini Diced Ginger",
+      "category": "Leaveners & Spices",
+      "cup_grams": 146.0,
+      "tbsp_grams": 9.12,
+      "tsp_grams": 3.04,
+      "ml_grams": 0.617,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 73.0,
+          "ounces": "2 1/2",
+          "cup_grams": 146.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "molasses",
+      "name": "Molasses",
+      "category": "Liquids & Syrups",
+      "cup_grams": 340.0,
+      "tbsp_grams": 21.25,
+      "tsp_grams": 7.08,
+      "ml_grams": 1.437,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 340.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "molasses",
+          "cup_grams": 321.0,
+          "volumes": {
+            "1 Cup": 321.0,
+            "3/4 Cup": 241.0,
+            "2/3 Cup": 214.0,
+            "1/2 Cup": 161.0,
+            "1/3 Cup": 107.0,
+            "1/4 Cup": 80.0,
+            "3 TBSP": 60.0,
+            "2 TBSP": 40.0,
+            "1 TBSP": 20.0,
+            "1 TSP": 7.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -19.0,
+        "diff_percent": -5.6,
+        "note": "LA Times (321.0g/cup) is 5.6% lighter than King Arthur (340.0g/cup)."
+      }
+    },
+    {
+      "id": "mushrooms-sliced",
+      "name": "Mushrooms (sliced)",
+      "category": "Specialty & Other",
+      "cup_grams": 78.0,
+      "tbsp_grams": 4.88,
+      "tsp_grams": 1.62,
+      "ml_grams": 0.33,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 78.0,
+          "ounces": "2 3/4",
+          "cup_grams": 78.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "neutral-oil",
+      "name": "Neutral oil",
+      "category": "Fats & Oils",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "neutral oil",
+          "cup_grams": 224.0,
+          "volumes": {
+            "1 Cup": 224.0,
+            "3/4 Cup": 168.0,
+            "2/3 Cup": 149.0,
+            "1/2 Cup": 112.0,
+            "1/3 Cup": 75.0,
+            "1/4 Cup": 56.0,
+            "3 TBSP": 42.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "non-diastatic-malt-powder",
+      "name": "Non-Diastatic Malt Powder",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "nutella",
+      "name": "Nutella",
+      "category": "Specialty & Other",
+      "cup_grams": 298.0,
+      "tbsp_grams": 18.62,
+      "tsp_grams": 6.21,
+      "ml_grams": 1.26,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 298.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "oat-bran",
+      "name": "Oat bran",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 53.0,
+          "ounces": "1 7/8",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "oat-flour",
+      "name": "Oat Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 92.0,
+      "tbsp_grams": 5.75,
+      "tsp_grams": 1.92,
+      "ml_grams": 0.389,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 92.0,
+          "ounces": "3 1/4",
+          "cup_grams": 92.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "oats-king-arthur-rolled",
+      "name": "Oats (King Arthur Rolled)",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "oats-old-fashioned-or-quick-cooking",
+      "name": "Oats (old-fashioned or quick-cooking)",
+      "category": "Grains & Flours",
+      "cup_grams": 89.0,
+      "tbsp_grams": 5.56,
+      "tsp_grams": 1.85,
+      "ml_grams": 0.376,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 89.0,
+          "ounces": "3 1/8",
+          "cup_grams": 89.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "oats-prepared",
+      "name": "Oats (prepared)",
+      "category": "Grains & Flours",
+      "cup_grams": 147.0,
+      "tbsp_grams": 9.19,
+      "tsp_grams": 3.06,
+      "ml_grams": 0.621,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 147.0,
+          "ounces": "5 1/8",
+          "cup_grams": 147.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive oil",
+      "category": "Fats & Oils",
+      "cup_grams": 200.0,
+      "tbsp_grams": 12.5,
+      "tsp_grams": 4.17,
+      "ml_grams": 0.845,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 50.0,
+          "ounces": "1 3/4",
+          "cup_grams": 200.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "olive oil",
+          "cup_grams": 220.0,
+          "volumes": {
+            "1 Cup": 220.0,
+            "3/4 Cup": 165.0,
+            "2/3 Cup": 147.0,
+            "1/2 Cup": 110.0,
+            "1/3 Cup": 73.0,
+            "1/4 Cup": 55.0,
+            "3 TBSP": 41.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 20.0,
+        "diff_percent": 10.0,
+        "note": "LA Times (220.0g/cup) is 10.0% heavier than King Arthur (200.0g/cup)."
+      }
+    },
+    {
+      "id": "olives-sliced",
+      "name": "Olives (sliced)",
+      "category": "Specialty & Other",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "onions-fresh-diced",
+      "name": "Onions (fresh, diced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange juice",
+      "category": "Liquids & Syrups",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "orange juice",
+          "cup_grams": 224.0,
+          "volumes": {
+            "1 Cup": 224.0,
+            "3/4 Cup": 168.0,
+            "2/3 Cup": 149.0,
+            "1/2 Cup": 112.0,
+            "1/3 Cup": 75.0,
+            "1/4 Cup": 56.0,
+            "3 TBSP": 42.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "paleo-baking-flour",
+      "name": "Paleo Baking Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 104.0,
+      "tbsp_grams": 6.5,
+      "tsp_grams": 2.17,
+      "ml_grams": 0.44,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 104.0,
+          "ounces": "3 5/8",
+          "cup_grams": 104.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "palm-shortening",
+      "name": "Palm shortening",
+      "category": "Fats & Oils",
+      "cup_grams": 180.0,
+      "tbsp_grams": 11.25,
+      "tsp_grams": 3.75,
+      "ml_grams": 0.761,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 45.0,
+          "ounces": "1 1/2",
+          "cup_grams": 180.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "passion-fruit-pur-e",
+      "name": "Passion fruit purée",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 180.0,
+      "tbsp_grams": 11.25,
+      "tsp_grams": 3.75,
+      "ml_grams": 0.761,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/3 cup",
+          "grams": 60.0,
+          "ounces": "2 1/8",
+          "cup_grams": 180.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pasta-flour-blend",
+      "name": "Pasta Flour Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 145.0,
+      "tbsp_grams": 9.06,
+      "tsp_grams": 3.02,
+      "ml_grams": 0.613,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 145.0,
+          "ounces": "5 1/8",
+          "cup_grams": 145.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pastry-flour",
+      "name": "Pastry Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pastry-flour-blend",
+      "name": "Pastry Flour Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "peaches-peeled-and-diced",
+      "name": "Peaches (peeled and diced)",
+      "category": "Specialty & Other",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "peanut-butter",
+      "name": "Peanut butter",
+      "category": "Nuts & Seeds",
+      "cup_grams": 270.0,
+      "tbsp_grams": 16.88,
+      "tsp_grams": 5.62,
+      "ml_grams": 1.141,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 135.0,
+          "ounces": "4 3/4",
+          "cup_grams": 270.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "peanut butter",
+          "cup_grams": 259.0,
+          "volumes": {
+            "1 Cup": 259.0,
+            "3/4 Cup": 194.0,
+            "2/3 Cup": 173.0,
+            "1/2 Cup": 130.0,
+            "1/3 Cup": 86.0,
+            "1/4 Cup": 65.0,
+            "3 TBSP": 49.0,
+            "2 TBSP": 32.0,
+            "1 TBSP": 16.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -11.0,
+        "diff_percent": -4.1,
+        "note": "LA Times (259.0g/cup) is 4.1% lighter than King Arthur (270.0g/cup)."
+      }
+    },
+    {
+      "id": "peanuts-whole-shelled",
+      "name": "Peanuts (whole, shelled)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "peanuts",
+          "cup_grams": 150.0,
+          "volumes": {
+            "1 Cup": 150.0,
+            "3/4 Cup": 113.0,
+            "2/3 Cup": 100.0,
+            "1/2 Cup": 75.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 38.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 8.0,
+        "diff_percent": 5.6,
+        "note": "LA Times (150.0g/cup) is 5.6% heavier than King Arthur (142.0g/cup)."
+      }
+    },
+    {
+      "id": "pears-peeled-and-diced",
+      "name": "Pears (peeled and diced)",
+      "category": "Specialty & Other",
+      "cup_grams": 163.0,
+      "tbsp_grams": 10.19,
+      "tsp_grams": 3.4,
+      "ml_grams": 0.689,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 163.0,
+          "ounces": "5 3/4",
+          "cup_grams": 163.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pecan-meal",
+      "name": "Pecan Meal",
+      "category": "Grains & Flours",
+      "cup_grams": 80.0,
+      "tbsp_grams": 5.0,
+      "tsp_grams": 1.67,
+      "ml_grams": 0.338,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 80.0,
+          "ounces": "2 3/4",
+          "cup_grams": 80.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pecans-diced",
+      "name": "Pecans (diced)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pecans-whole",
+      "name": "Pecans (whole)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 105.0,
+      "tbsp_grams": 6.56,
+      "tsp_grams": 2.19,
+      "ml_grams": 0.444,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 105.0,
+          "ounces": "3 3/4",
+          "cup_grams": 105.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "pecans",
+          "cup_grams": 109.0,
+          "volumes": {
+            "1 Cup": 109.0,
+            "3/4 Cup": 82.0,
+            "2/3 Cup": 73.0,
+            "1/2 Cup": 55.0,
+            "1/3 Cup": 36.0,
+            "1/4 Cup": 27.0,
+            "3 TBSP": 20.0,
+            "2 TBSP": 14.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 4.0,
+        "diff_percent": 3.8,
+        "note": "LA Times (109.0g/cup) is 3.8% heavier than King Arthur (105.0g/cup)."
+      }
+    },
+    {
+      "id": "pepitas",
+      "name": "Pepitas",
+      "category": "Nuts & Seeds",
+      "cup_grams": 136.0,
+      "tbsp_grams": 8.5,
+      "tsp_grams": 2.83,
+      "ml_grams": 0.575,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "pepitas",
+          "cup_grams": 136.0,
+          "volumes": {
+            "1 Cup": 136.0,
+            "3/4 Cup": 102.0,
+            "2/3 Cup": 91.0,
+            "1/2 Cup": 68.0,
+            "1/3 Cup": 45.0,
+            "1/4 Cup": 34.0,
+            "3 TBSP": 26.0,
+            "2 TBSP": 17.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "pie-filling-enhancer",
+      "name": "Pie Filling Enhancer",
+      "category": "Specialty & Other",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 46.0,
+          "ounces": "1 5/8",
+          "cup_grams": 184.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pine-nuts",
+      "name": "Pine nuts",
+      "category": "Nuts & Seeds",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 71.0,
+          "ounces": "2 1/2",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "pine nuts",
+          "cup_grams": 151.0,
+          "volumes": {
+            "1 Cup": 151.0,
+            "3/4 Cup": 113.0,
+            "2/3 Cup": 101.0,
+            "1/2 Cup": 76.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 38.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 9.0,
+        "diff_percent": 6.3,
+        "note": "LA Times (151.0g/cup) is 6.3% heavier than King Arthur (142.0g/cup)."
+      }
+    },
+    {
+      "id": "pineapple-crushed-drained",
+      "name": "Pineapple (crushed, drained)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 256.0,
+      "tbsp_grams": 16.0,
+      "tsp_grams": 5.33,
+      "ml_grams": 1.082,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 256.0,
+          "ounces": "9",
+          "cup_grams": 256.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pineapple-dried",
+      "name": "Pineapple (dried)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 71.0,
+          "ounces": "2 1/2",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pineapple-fresh-or-canned-diced",
+      "name": "Pineapple (fresh or canned, diced)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pistachio-nuts-shelled",
+      "name": "Pistachio nuts (shelled)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 60.0,
+          "ounces": "2 1/8",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pistachio-paste",
+      "name": "Pistachio Paste",
+      "category": "Nuts & Seeds",
+      "cup_grams": 312.0,
+      "tbsp_grams": 19.5,
+      "tsp_grams": 6.5,
+      "ml_grams": 1.319,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 78.0,
+          "ounces": "2 3/4",
+          "cup_grams": 312.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pitted-dates",
+      "name": "Pitted dates",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 162.0,
+      "tbsp_grams": 10.12,
+      "tsp_grams": 3.38,
+      "ml_grams": 0.685,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "pitted dates",
+          "cup_grams": 162.0,
+          "volumes": {
+            "1 Cup": 162.0,
+            "3/4 Cup": 122.0,
+            "2/3 Cup": 108.0,
+            "1/2 Cup": 81.0,
+            "1/3 Cup": 54.0,
+            "1/4 Cup": 41.0,
+            "3 TBSP": 30.0,
+            "2 TBSP": 20.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "pitted-dried-plums",
+      "name": "Pitted dried plums",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "pitted dried plums",
+          "cup_grams": 184.0,
+          "volumes": {
+            "1 Cup": 184.0,
+            "3/4 Cup": 138.0,
+            "2/3 Cup": 123.0,
+            "1/2 Cup": 92.0,
+            "1/3 Cup": 61.0,
+            "1/4 Cup": 46.0,
+            "3 TBSP": 35.0,
+            "2 TBSP": 23.0,
+            "1 TBSP": 12.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "pizza-dough-flavor",
+      "name": "Pizza Dough Flavor",
+      "category": "Leaveners & Spices",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 12.0,
+          "ounces": "4/10",
+          "cup_grams": 96.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pizza-flour-blend",
+      "name": "Pizza Flour Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 124.0,
+      "tbsp_grams": 7.75,
+      "tsp_grams": 2.58,
+      "ml_grams": 0.524,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 124.0,
+          "ounces": "4 3/8",
+          "cup_grams": 124.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pizza-sauce",
+      "name": "Pizza sauce",
+      "category": "Specialty & Other",
+      "cup_grams": 228.0,
+      "tbsp_grams": 14.25,
+      "tsp_grams": 4.75,
+      "ml_grams": 0.964,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 228.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pizza-seasoning",
+      "name": "Pizza Seasoning",
+      "category": "Specialty & Other",
+      "cup_grams": 80.0,
+      "tbsp_grams": 5.0,
+      "tsp_grams": 1.67,
+      "ml_grams": 0.338,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 10.0,
+          "ounces": "1/3",
+          "cup_grams": 80.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "plain-yogurt",
+      "name": "Plain yogurt",
+      "category": "Dairy & Eggs",
+      "cup_grams": 261.0,
+      "tbsp_grams": 16.31,
+      "tsp_grams": 5.44,
+      "ml_grams": 1.103,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "plain yogurt",
+          "cup_grams": 261.0,
+          "volumes": {
+            "1 Cup": 261.0,
+            "3/4 Cup": 196.0,
+            "2/3 Cup": 174.0,
+            "1/2 Cup": 131.0,
+            "1/3 Cup": 87.0,
+            "1/4 Cup": 65.0,
+            "3 TBSP": 49.0,
+            "2 TBSP": 33.0,
+            "1 TBSP": 16.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "polenta-coarse-ground-cornmeal",
+      "name": "Polenta (coarse ground cornmeal)",
+      "category": "Grains & Flours",
+      "cup_grams": 163.0,
+      "tbsp_grams": 10.19,
+      "tsp_grams": 3.4,
+      "ml_grams": 0.689,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 163.0,
+          "ounces": "5 3/4",
+          "cup_grams": 163.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pomegranate-juice",
+      "name": "Pomegranate juice",
+      "category": "Liquids & Syrups",
+      "cup_grams": 221.0,
+      "tbsp_grams": 13.81,
+      "tsp_grams": 4.6,
+      "ml_grams": 0.934,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "pomegranate juice",
+          "cup_grams": 221.0,
+          "volumes": {
+            "1 Cup": 221.0,
+            "3/4 Cup": 166.0,
+            "2/3 Cup": 147.0,
+            "1/2 Cup": 111.0,
+            "1/3 Cup": 74.0,
+            "1/4 Cup": 55.0,
+            "3 TBSP": 41.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "poppy-seeds",
+      "name": "Poppy seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "poppy seeds",
+          "cup_grams": 156.0,
+          "volumes": {
+            "1 Cup": 156.0,
+            "3/4 Cup": 117.0,
+            "2/3 Cup": 104.0,
+            "1/2 Cup": 78.0,
+            "1/3 Cup": 52.0,
+            "1/4 Cup": 39.0,
+            "3 TBSP": 29.0,
+            "2 TBSP": 20.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 12.0,
+        "diff_percent": 8.3,
+        "note": "LA Times (156.0g/cup) is 8.3% heavier than King Arthur (144.0g/cup)."
+      }
+    },
+    {
+      "id": "potato-flour",
+      "name": "Potato Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 46.0,
+          "ounces": "1 5/8",
+          "cup_grams": 184.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "potato-starch",
+      "name": "Potato starch",
+      "category": "Grains & Flours",
+      "cup_grams": 152.0,
+      "tbsp_grams": 9.5,
+      "tsp_grams": 3.17,
+      "ml_grams": 0.642,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 152.0,
+          "ounces": "5 3/8",
+          "cup_grams": 152.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pumpernickel-flour",
+      "name": "Pumpernickel Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pumpkin-pur-e",
+      "name": "Pumpkin purée",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "pumpkin-seeds",
+      "name": "Pumpkin seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 160.0,
+      "tbsp_grams": 10.0,
+      "tsp_grams": 3.33,
+      "ml_grams": 0.676,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 40.0,
+          "ounces": "1 3/8",
+          "cup_grams": 160.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "queso-fresco",
+      "name": "Queso fresco",
+      "category": "Specialty & Other",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "quinoa-cooked",
+      "name": "Quinoa (cooked)",
+      "category": "Grains & Flours",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 184.0,
+          "ounces": "6 1/2",
+          "cup_grams": 184.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "quinoa-whole",
+      "name": "Quinoa (whole)",
+      "category": "Grains & Flours",
+      "cup_grams": 177.0,
+      "tbsp_grams": 11.06,
+      "tsp_grams": 3.69,
+      "ml_grams": 0.748,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 177.0,
+          "ounces": "6 1/4",
+          "cup_grams": 177.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "quinoa",
+          "cup_grams": 172.0,
+          "volumes": {
+            "1 Cup": 172.0,
+            "3/4 Cup": 129.0,
+            "2/3 Cup": 115.0,
+            "1/2 Cup": 86.0,
+            "1/3 Cup": 57.0,
+            "1/4 Cup": 43.0,
+            "3 TBSP": 32.0,
+            "2 TBSP": 22.0,
+            "1 TBSP": 11.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -5.0,
+        "diff_percent": -2.8,
+        "note": "LA Times (172.0g/cup) is 2.8% lighter than King Arthur (177.0g/cup)."
+      }
+    },
+    {
+      "id": "quinoa-flour",
+      "name": "Quinoa flour",
+      "category": "Grains & Flours",
+      "cup_grams": 110.0,
+      "tbsp_grams": 6.88,
+      "tsp_grams": 2.29,
+      "ml_grams": 0.465,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 110.0,
+          "ounces": "3 7/8",
+          "cup_grams": 110.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "raisins-loose",
+      "name": "Raisins (loose)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 149.0,
+          "ounces": "5 1/4",
+          "cup_grams": 149.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "raisins-packed",
+      "name": "Raisins (packed)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 85.0,
+          "ounces": "3",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "raisins",
+          "cup_grams": 167.0,
+          "volumes": {
+            "1 Cup": 167.0,
+            "3/4 Cup": 125.0,
+            "2/3 Cup": 111.0,
+            "1/2 Cup": 84.0,
+            "1/3 Cup": 56.0,
+            "1/4 Cup": 42.0,
+            "3 TBSP": 31.0,
+            "2 TBSP": 21.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -3.0,
+        "diff_percent": -1.8,
+        "note": "LA Times (167.0g/cup) is 1.8% lighter than King Arthur (170.0g/cup)."
+      }
+    },
+    {
+      "id": "raspberries-fresh",
+      "name": "Raspberries (fresh)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "raspberries",
+          "cup_grams": 123.0,
+          "volumes": {
+            "1 Cup": 123.0,
+            "3/4 Cup": 92.0,
+            "2/3 Cup": 82.0,
+            "1/2 Cup": 62.0,
+            "1/3 Cup": 41.0,
+            "1/4 Cup": 31.0,
+            "3 TBSP": 23.0,
+            "2 TBSP": 15.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 3.0,
+        "diff_percent": 2.5,
+        "note": "LA Times (123.0g/cup) is 2.5% heavier than King Arthur (120.0g/cup)."
+      }
+    },
+    {
+      "id": "rhubarb-sliced-1-2-slices",
+      "name": "Rhubarb (sliced, 1/2\" slices)",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 130.0,
+      "tbsp_grams": 8.12,
+      "tsp_grams": 2.71,
+      "ml_grams": 0.549,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 130.0,
+          "ounces": "4 1/4 to 5",
+          "cup_grams": 130.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "rice-long-grain-dry",
+      "name": "Rice (long grain, dry)",
+      "category": "Grains & Flours",
+      "cup_grams": 198.0,
+      "tbsp_grams": 12.38,
+      "tsp_grams": 4.12,
+      "ml_grams": 0.837,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 99.0,
+          "ounces": "3 1/2",
+          "cup_grams": 198.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "rice-flour-white",
+      "name": "Rice flour (white)",
+      "category": "Grains & Flours",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 142.0,
+          "ounces": "5",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "rice-krispies",
+      "name": "Rice Krispies",
+      "category": "Specialty & Other",
+      "cup_grams": 28.0,
+      "tbsp_grams": 1.75,
+      "tsp_grams": 0.58,
+      "ml_grams": 0.118,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 28.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "roasted-chestnuts",
+      "name": "Roasted chestnuts",
+      "category": "Nuts & Seeds",
+      "cup_grams": 161.0,
+      "tbsp_grams": 10.06,
+      "tsp_grams": 3.35,
+      "ml_grams": 0.681,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "roasted chestnuts",
+          "cup_grams": 161.0,
+          "volumes": {
+            "1 Cup": 161.0,
+            "3/4 Cup": 121.0,
+            "2/3 Cup": 107.0,
+            "1/2 Cup": 81.0,
+            "1/3 Cup": 54.0,
+            "1/4 Cup": 40.0,
+            "3 TBSP": 30.0,
+            "2 TBSP": 20.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "rolled-oats",
+      "name": "Rolled oats",
+      "category": "Grains & Flours",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "rolled oats",
+          "cup_grams": 96.0,
+          "volumes": {
+            "1 Cup": 96.0,
+            "3/4 Cup": 72.0,
+            "2/3 Cup": 64.0,
+            "1/2 Cup": 48.0,
+            "1/3 Cup": 32.0,
+            "1/4 Cup": 24.0,
+            "3 TBSP": 18.0,
+            "2 TBSP": 12.0,
+            "1 TBSP": 6.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "rye-bread-improver",
+      "name": "Rye Bread Improver",
+      "category": "Grains & Flours",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 14.0,
+          "ounces": "1/2",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "rye-chops",
+      "name": "Rye Chops",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "rye-flakes",
+      "name": "Rye flakes",
+      "category": "Grains & Flours",
+      "cup_grams": 124.0,
+      "tbsp_grams": 7.75,
+      "tsp_grams": 2.58,
+      "ml_grams": 0.524,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 124.0,
+          "ounces": "4 3/8",
+          "cup_grams": 124.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "rye-flour-blend",
+      "name": "Rye Flour Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "salt-kosher-diamond-crystal",
+      "name": "Salt (Kosher, Diamond Crystal)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 8.0,
+          "ounces": "1/4",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "salt-kosher-morton-s",
+      "name": "Salt (Kosher, Morton's)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 256.0,
+      "tbsp_grams": 16.0,
+      "tsp_grams": 5.33,
+      "ml_grams": 1.082,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 16.0,
+          "ounces": "1/2",
+          "cup_grams": 256.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "salt-table",
+      "name": "Salt (table)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 288.0,
+      "tbsp_grams": 18.0,
+      "tsp_grams": 6.0,
+      "ml_grams": 1.217,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 18.0,
+          "ounces": "2/3",
+          "cup_grams": 288.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "scallions-sliced",
+      "name": "Scallions (sliced)",
+      "category": "Specialty & Other",
+      "cup_grams": 64.0,
+      "tbsp_grams": 4.0,
+      "tsp_grams": 1.33,
+      "ml_grams": 0.271,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 64.0,
+          "ounces": "2 1/4",
+          "cup_grams": 64.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "self-rising-flour",
+      "name": "Self-Rising Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "semolina-flour",
+      "name": "Semolina Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 163.0,
+      "tbsp_grams": 10.19,
+      "tsp_grams": 3.4,
+      "ml_grams": 0.689,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 163.0,
+          "ounces": "5 3/4",
+          "cup_grams": 163.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "semolina flour",
+          "cup_grams": 154.0,
+          "volumes": {
+            "1 Cup": 154.0,
+            "3/4 Cup": 116.0,
+            "2/3 Cup": 103.0,
+            "1/2 Cup": 77.0,
+            "1/3 Cup": 51.0,
+            "1/4 Cup": 39.0,
+            "3 TBSP": 29.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -9.0,
+        "diff_percent": -5.5,
+        "note": "LA Times (154.0g/cup) is 5.5% lighter than King Arthur (163.0g/cup)."
+      }
+    },
+    {
+      "id": "sesame-seeds",
+      "name": "Sesame seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 142.0,
+      "tbsp_grams": 8.88,
+      "tsp_grams": 2.96,
+      "ml_grams": 0.6,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 71.0,
+          "ounces": "2 1/2",
+          "cup_grams": 142.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "sesame seeds",
+          "cup_grams": 150.0,
+          "volumes": {
+            "1 Cup": 150.0,
+            "3/4 Cup": 113.0,
+            "2/3 Cup": 100.0,
+            "1/2 Cup": 75.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 38.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 8.0,
+        "diff_percent": 5.6,
+        "note": "LA Times (150.0g/cup) is 5.6% heavier than King Arthur (142.0g/cup)."
+      }
+    },
+    {
+      "id": "shallots-peeled-and-sliced",
+      "name": "Shallots (peeled and sliced)",
+      "category": "Specialty & Other",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "shelled-pistachios",
+      "name": "Shelled pistachios",
+      "category": "Nuts & Seeds",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "shelled pistachios",
+          "cup_grams": 128.0,
+          "volumes": {
+            "1 Cup": 128.0,
+            "3/4 Cup": 96.0,
+            "2/3 Cup": 85.0,
+            "1/2 Cup": 64.0,
+            "1/3 Cup": 43.0,
+            "1/4 Cup": 32.0,
+            "3 TBSP": 24.0,
+            "2 TBSP": 16.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "six-grain-blend",
+      "name": "Six-Grain Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sliced-almonds",
+      "name": "Sliced almonds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 116.0,
+      "tbsp_grams": 7.25,
+      "tsp_grams": 2.42,
+      "ml_grams": 0.49,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "sliced almonds",
+          "cup_grams": 116.0,
+          "volumes": {
+            "1 Cup": 116.0,
+            "3/4 Cup": 87.0,
+            "2/3 Cup": 77.0,
+            "1/2 Cup": 58.0,
+            "1/3 Cup": 39.0,
+            "1/4 Cup": 29.0,
+            "3 TBSP": 22.0,
+            "2 TBSP": 15.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "sliced-rhubarb",
+      "name": "Sliced rhubarb",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "sliced rhubarb",
+          "cup_grams": 128.0,
+          "volumes": {
+            "1 Cup": 128.0,
+            "3/4 Cup": 96.0,
+            "2/3 Cup": 85.0,
+            "1/2 Cup": 64.0,
+            "1/3 Cup": 43.0,
+            "1/4 Cup": 32.0,
+            "3 TBSP": 24.0,
+            "2 TBSP": 16.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "snow-white-non-melting-topping-sugar",
+      "name": "Snow White Non-Melting Topping Sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 114.0,
+      "tbsp_grams": 7.12,
+      "tsp_grams": 2.38,
+      "ml_grams": 0.482,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 114.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "solid-pack-pumpkin",
+      "name": "Solid-pack pumpkin",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 279.0,
+      "tbsp_grams": 17.44,
+      "tsp_grams": 5.81,
+      "ml_grams": 1.179,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "solid-pack pumpkin",
+          "cup_grams": 279.0,
+          "volumes": {
+            "1 Cup": 279.0,
+            "3/4 Cup": 209.0,
+            "2/3 Cup": 186.0,
+            "1/2 Cup": 140.0,
+            "1/3 Cup": 93.0,
+            "1/4 Cup": 70.0,
+            "3 TBSP": 52.0,
+            "2 TBSP": 35.0,
+            "1 TBSP": 17.0,
+            "1 TSP": 6.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "sorghum-flour",
+      "name": "Sorghum flour",
+      "category": "Grains & Flours",
+      "cup_grams": 138.0,
+      "tbsp_grams": 8.62,
+      "tsp_grams": 2.88,
+      "ml_grams": 0.583,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 138.0,
+          "ounces": "4 7/8",
+          "cup_grams": 138.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sorghum-syrup",
+      "name": "Sorghum syrup",
+      "category": "Liquids & Syrups",
+      "cup_grams": 352.0,
+      "tbsp_grams": 22.0,
+      "tsp_grams": 7.33,
+      "ml_grams": 1.488,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "sorghum syrup",
+          "cup_grams": 352.0,
+          "volumes": {
+            "1 Cup": 352.0,
+            "3/4 Cup": 264.0,
+            "2/3 Cup": 235.0,
+            "1/2 Cup": 176.0,
+            "1/3 Cup": 117.0,
+            "1/4 Cup": 88.0,
+            "3 TBSP": 66.0,
+            "2 TBSP": 44.0,
+            "1 TBSP": 22.0,
+            "1 TSP": 7.0,
+            "1/2 TSP": 4.0,
+            "1/4 TSP": 2.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "sour-cream",
+      "name": "Sour cream",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "sour cream",
+          "cup_grams": 242.0,
+          "volumes": {
+            "1 Cup": 242.0,
+            "3/4 Cup": 182.0,
+            "2/3 Cup": 161.0,
+            "1/2 Cup": 121.0,
+            "1/3 Cup": 81.0,
+            "1/4 Cup": 61.0,
+            "3 TBSP": 45.0,
+            "2 TBSP": 30.0,
+            "1 TBSP": 15.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 15.0,
+        "diff_percent": 6.6,
+        "note": "LA Times (242.0g/cup) is 6.6% heavier than King Arthur (227.0g/cup)."
+      }
+    },
+    {
+      "id": "sourdough-starter",
+      "name": "Sourdough starter",
+      "category": "Specialty & Other",
+      "cup_grams": 234.0,
+      "tbsp_grams": 14.62,
+      "tsp_grams": 4.88,
+      "ml_grams": 0.989,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 234.0,
+          "ounces": "8 to 8 1/2",
+          "cup_grams": 234.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "soy-flour",
+      "name": "Soy flour",
+      "category": "Grains & Flours",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "soy-almond-milk",
+      "name": "Soy/almond milk",
+      "category": "Liquids & Syrups",
+      "cup_grams": 220.0,
+      "tbsp_grams": 13.75,
+      "tsp_grams": 4.58,
+      "ml_grams": 0.93,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "soy/almond milk",
+          "cup_grams": 220.0,
+          "volumes": {
+            "1 Cup": 220.0,
+            "3/4 Cup": 165.0,
+            "2/3 Cup": 147.0,
+            "1/2 Cup": 110.0,
+            "1/3 Cup": 73.0,
+            "1/4 Cup": 55.0,
+            "3 TBSP": 41.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "sparkling-sugar",
+      "name": "Sparkling Sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 228.0,
+      "tbsp_grams": 14.25,
+      "tsp_grams": 4.75,
+      "ml_grams": 0.964,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 57.0,
+          "ounces": "2",
+          "cup_grams": 228.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "spelt-flour",
+      "name": "Spelt Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 99.0,
+      "tbsp_grams": 6.19,
+      "tsp_grams": 2.06,
+      "ml_grams": 0.418,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 99.0,
+          "ounces": "3 1/2",
+          "cup_grams": 99.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "spelt flour",
+          "cup_grams": 137.0,
+          "volumes": {
+            "1 Cup": 137.0,
+            "3/4 Cup": 103.0,
+            "2/3 Cup": 91.0,
+            "1/2 Cup": 69.0,
+            "1/3 Cup": 46.0,
+            "1/4 Cup": 34.0,
+            "3 TBSP": 26.0,
+            "2 TBSP": 17.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 38.0,
+        "diff_percent": 38.4,
+        "note": "LA Times (137.0g/cup) is 38.4% heavier than King Arthur (99.0g/cup)."
+      }
+    },
+    {
+      "id": "sprouted-wheat-flour",
+      "name": "Sprouted Wheat Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "steel-cut-oats",
+      "name": "Steel cut oats",
+      "category": "Grains & Flours",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 70.0,
+          "ounces": "2 1/2",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sticky-bun-sugar",
+      "name": "Sticky Bun Sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 99.0,
+      "tbsp_grams": 6.19,
+      "tsp_grams": 2.06,
+      "ml_grams": 0.418,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 99.0,
+          "ounces": "3 1/2",
+          "cup_grams": 99.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "strawberries-fresh-sliced",
+      "name": "Strawberries (fresh sliced)",
+      "category": "Specialty & Other",
+      "cup_grams": 167.0,
+      "tbsp_grams": 10.44,
+      "tsp_grams": 3.48,
+      "ml_grams": 0.706,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 167.0,
+          "ounces": "5 7/8",
+          "cup_grams": 167.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sugar-granulated-white",
+      "name": "Sugar (granulated white)",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 198.0,
+      "tbsp_grams": 12.38,
+      "tsp_grams": 4.12,
+      "ml_grams": 0.837,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 198.0,
+          "ounces": "7",
+          "cup_grams": 198.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "granulated sugar",
+          "cup_grams": 208.0,
+          "volumes": {
+            "1 Cup": 208.0,
+            "3/4 Cup": 156.0,
+            "2/3 Cup": 139.0,
+            "1/2 Cup": 104.0,
+            "1/3 Cup": 69.0,
+            "1/4 Cup": 52.0,
+            "3 TBSP": 39.0,
+            "2 TBSP": 26.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 10.0,
+        "diff_percent": 5.1,
+        "note": "LA Times (208.0g/cup) is 5.1% heavier than King Arthur (198.0g/cup)."
+      }
+    },
+    {
+      "id": "sugar-in-the-raw",
+      "name": "Sugar in the raw",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 230.0,
+      "tbsp_grams": 14.38,
+      "tsp_grams": 4.79,
+      "ml_grams": 0.972,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "sugar in the raw",
+          "cup_grams": 230.0,
+          "volumes": {
+            "1 Cup": 230.0,
+            "3/4 Cup": 173.0,
+            "2/3 Cup": 153.0,
+            "1/2 Cup": 115.0,
+            "1/3 Cup": 77.0,
+            "1/4 Cup": 58.0,
+            "3 TBSP": 43.0,
+            "2 TBSP": 29.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "sugar-substitute-splenda",
+      "name": "Sugar substitute (Splenda)",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 25.0,
+      "tbsp_grams": 1.56,
+      "tsp_grams": 0.52,
+      "ml_grams": 0.106,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 25.0,
+          "ounces": "7/8",
+          "cup_grams": 25.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sundried-tomatoes-dry-pack",
+      "name": "Sundried tomatoes (dry pack)",
+      "category": "Specialty & Other",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sunflower-seeds",
+      "name": "Sunflower seeds",
+      "category": "Nuts & Seeds",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "sunflower seeds",
+          "cup_grams": 149.0,
+          "volumes": {
+            "1 Cup": 149.0,
+            "3/4 Cup": 112.0,
+            "2/3 Cup": 99.0,
+            "1/2 Cup": 75.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 37.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 9.0,
+        "diff_percent": 6.4,
+        "note": "LA Times (149.0g/cup) is 6.4% heavier than King Arthur (140.0g/cup)."
+      }
+    },
+    {
+      "id": "super-10-blend",
+      "name": "Super 10 Blend",
+      "category": "Specialty & Other",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "swedish-pearl-sugar",
+      "name": "Swedish Pearl Sugar",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 196.0,
+      "tbsp_grams": 12.25,
+      "tsp_grams": 4.08,
+      "ml_grams": 0.828,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 49.0,
+          "ounces": "1 3/4",
+          "cup_grams": 196.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sweet-white-sorghum",
+      "name": "Sweet white sorghum",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "sweet white sorghum",
+          "cup_grams": 120.0,
+          "volumes": {
+            "1 Cup": 120.0,
+            "3/4 Cup": 90.0,
+            "2/3 Cup": 80.0,
+            "1/2 Cup": 60.0,
+            "1/3 Cup": 40.0,
+            "1/4 Cup": 30.0,
+            "3 TBSP": 23.0,
+            "2 TBSP": 15.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "sweetened-condensed-coconut-milk",
+      "name": "Sweetened condensed coconut milk",
+      "category": "Dairy & Eggs",
+      "cup_grams": 288.0,
+      "tbsp_grams": 18.0,
+      "tsp_grams": 6.0,
+      "ml_grams": 1.217,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 288.0,
+          "ounces": "10 1/8",
+          "cup_grams": 288.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "sweetened-condensed-milk",
+      "name": "Sweetened condensed milk",
+      "category": "Dairy & Eggs",
+      "cup_grams": 312.0,
+      "tbsp_grams": 19.5,
+      "tsp_grams": 6.5,
+      "ml_grams": 1.319,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 78.0,
+          "ounces": "2 3/4",
+          "cup_grams": 312.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "tahini-paste",
+      "name": "Tahini paste",
+      "category": "Nuts & Seeds",
+      "cup_grams": 256.0,
+      "tbsp_grams": 16.0,
+      "tsp_grams": 5.33,
+      "ml_grams": 1.082,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 128.0,
+          "ounces": "4 1/2",
+          "cup_grams": 256.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "tahini",
+          "cup_grams": 256.0,
+          "volumes": {
+            "1 Cup": 256.0,
+            "3/4 Cup": 192.0,
+            "2/3 Cup": 171.0,
+            "1/2 Cup": 128.0,
+            "1/3 Cup": 85.0,
+            "1/4 Cup": 64.0,
+            "3 TBSP": 48.0,
+            "2 TBSP": 32.0,
+            "1 TBSP": 16.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 3.0,
+            "1/4 TSP": 1.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 0.0,
+        "diff_percent": 0.0,
+        "note": "Virtually identical between King Arthur (256.0g/cup) and LA Times (256.0g/cup)."
+      }
+    },
+    {
+      "id": "tapioca-quick-cooking",
+      "name": "Tapioca (quick cooking)",
+      "category": "Grains & Flours",
+      "cup_grams": 168.0,
+      "tbsp_grams": 10.5,
+      "tsp_grams": 3.5,
+      "ml_grams": 0.71,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 21.0,
+          "ounces": "3/4",
+          "cup_grams": 168.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "tapioca-pearls",
+      "name": "Tapioca pearls",
+      "category": "Grains & Flours",
+      "cup_grams": 160.0,
+      "tbsp_grams": 10.0,
+      "tsp_grams": 3.33,
+      "ml_grams": 0.676,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "tapioca pearls",
+          "cup_grams": 160.0,
+          "volumes": {
+            "1 Cup": 160.0,
+            "3/4 Cup": 120.0,
+            "2/3 Cup": 107.0,
+            "1/2 Cup": 80.0,
+            "1/3 Cup": 53.0,
+            "1/4 Cup": 40.0,
+            "3 TBSP": 30.0,
+            "2 TBSP": 20.0,
+            "1 TBSP": 10.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "tapioca-starch-or-flour",
+      "name": "Tapioca starch or flour",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "teff-flour",
+      "name": "Teff flour",
+      "category": "Grains & Flours",
+      "cup_grams": 135.0,
+      "tbsp_grams": 8.44,
+      "tsp_grams": 2.81,
+      "ml_grams": 0.571,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 135.0,
+          "ounces": "4 3/4",
+          "cup_grams": 135.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "thawed-frozen-cranberries",
+      "name": "Thawed frozen cranberries",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 110.0,
+      "tbsp_grams": 6.88,
+      "tsp_grams": 2.29,
+      "ml_grams": 0.465,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "thawed frozen cranberries",
+          "cup_grams": 110.0,
+          "volumes": {
+            "1 Cup": 110.0,
+            "3/4 Cup": 83.0,
+            "2/3 Cup": 73.0,
+            "1/2 Cup": 55.0,
+            "1/3 Cup": 37.0,
+            "1/4 Cup": 28.0,
+            "3 TBSP": 21.0,
+            "2 TBSP": 14.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "the-works-bread-topping",
+      "name": "The Works Bread Topping",
+      "category": "Specialty & Other",
+      "cup_grams": 140.0,
+      "tbsp_grams": 8.75,
+      "tsp_grams": 2.92,
+      "ml_grams": 0.592,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 35.0,
+          "ounces": "1 1/4",
+          "cup_grams": 140.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "toasted-almond-flour",
+      "name": "Toasted Almond Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 96.0,
+          "ounces": "3 3/8",
+          "cup_grams": 96.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "toffee-chunks",
+      "name": "Toffee chunks",
+      "category": "Specialty & Other",
+      "cup_grams": 156.0,
+      "tbsp_grams": 9.75,
+      "tsp_grams": 3.25,
+      "ml_grams": 0.659,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 156.0,
+          "ounces": "5 1/2",
+          "cup_grams": 156.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "tomato-paste",
+      "name": "Tomato paste",
+      "category": "Specialty & Other",
+      "cup_grams": 232.0,
+      "tbsp_grams": 14.5,
+      "tsp_grams": 4.83,
+      "ml_grams": 0.981,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tablespoons",
+          "grams": 29.0,
+          "ounces": "1",
+          "cup_grams": 232.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "tropical-fruit-blend",
+      "name": "Tropical Fruit Blend",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 135.0,
+      "tbsp_grams": 8.44,
+      "tsp_grams": 2.81,
+      "ml_grams": 0.571,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 135.0,
+          "ounces": "4 1/2 to 5",
+          "cup_grams": 135.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "turbinado-sugar-raw",
+      "name": "Turbinado sugar (raw)",
+      "category": "Sugars & Sweeteners",
+      "cup_grams": 180.0,
+      "tbsp_grams": 11.25,
+      "tsp_grams": 3.75,
+      "ml_grams": 0.761,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 180.0,
+          "ounces": "6 3/8",
+          "cup_grams": 180.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "turbinado sugar",
+          "cup_grams": 200.0,
+          "volumes": {
+            "1 Cup": 200.0,
+            "3/4 Cup": 150.0,
+            "2/3 Cup": 133.0,
+            "1/2 Cup": 100.0,
+            "1/3 Cup": 67.0,
+            "1/4 Cup": 50.0,
+            "3 TBSP": 38.0,
+            "2 TBSP": 25.0,
+            "1 TBSP": 13.0,
+            "1 TSP": 4.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 20.0,
+        "diff_percent": 11.1,
+        "note": "LA Times (200.0g/cup) is 11.1% heavier than King Arthur (180.0g/cup)."
+      }
+    },
+    {
+      "id": "unbleached-cake-flour",
+      "name": "Unbleached Cake Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 120.0,
+      "tbsp_grams": 7.5,
+      "tsp_grams": 2.5,
+      "ml_grams": 0.507,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 120.0,
+          "ounces": "4 1/4",
+          "cup_grams": 120.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "unsalted-butter",
+      "name": "Unsalted butter",
+      "category": "Dairy & Eggs",
+      "cup_grams": 228.0,
+      "tbsp_grams": 14.25,
+      "tsp_grams": 4.75,
+      "ml_grams": 0.964,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "unsalted butter",
+          "cup_grams": 228.0,
+          "volumes": {
+            "1 Cup": 228.0,
+            "3/4 Cup": 171.0,
+            "2/3 Cup": 152.0,
+            "1/2 Cup": 114.0,
+            "1/3 Cup": 76.0,
+            "1/4 Cup": 57.0,
+            "3 TBSP": 43.0,
+            "2 TBSP": 29.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "unsweetened-coconut-flakes",
+      "name": "Unsweetened coconut flakes",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 94.0,
+      "tbsp_grams": 5.88,
+      "tsp_grams": 1.96,
+      "ml_grams": 0.397,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "unsweetened coconut flakes",
+          "cup_grams": 94.0,
+          "volumes": {
+            "1 Cup": 94.0,
+            "3/4 Cup": 71.0,
+            "2/3 Cup": 63.0,
+            "1/2 Cup": 47.0,
+            "1/3 Cup": 31.0,
+            "1/4 Cup": 24.0,
+            "3 TBSP": 18.0,
+            "2 TBSP": 12.0,
+            "1 TBSP": 6.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "vanilla-extract",
+      "name": "Vanilla Extract",
+      "category": "Leaveners & Spices",
+      "cup_grams": 224.0,
+      "tbsp_grams": 14.0,
+      "tsp_grams": 4.67,
+      "ml_grams": 0.947,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 table spoon",
+          "grams": 14.0,
+          "ounces": "1/2",
+          "cup_grams": 224.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "vegetable-oil",
+      "name": "Vegetable oil",
+      "category": "Fats & Oils",
+      "cup_grams": 198.0,
+      "tbsp_grams": 12.38,
+      "tsp_grams": 4.12,
+      "ml_grams": 0.837,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 198.0,
+          "ounces": "7",
+          "cup_grams": 198.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "vegetable-shortening",
+      "name": "Vegetable shortening",
+      "category": "Fats & Oils",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 46.0,
+          "ounces": "1 5/8",
+          "cup_grams": 184.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "vital-wheat-gluten",
+      "name": "Vital Wheat Gluten",
+      "category": "Grains & Flours",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 table spoons",
+          "grams": 18.0,
+          "ounces": "5/8",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "walnuts-chopped",
+      "name": "Walnuts (chopped)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "walnuts-whole",
+      "name": "Walnuts (whole)",
+      "category": "Nuts & Seeds",
+      "cup_grams": 128.0,
+      "tbsp_grams": 8.0,
+      "tsp_grams": 2.67,
+      "ml_grams": 0.541,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 64.0,
+          "ounces": "2 1/4",
+          "cup_grams": 128.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "walnuts",
+          "cup_grams": 117.0,
+          "volumes": {
+            "1 Cup": 117.0,
+            "3/4 Cup": 88.0,
+            "2/3 Cup": 78.0,
+            "1/2 Cup": 59.0,
+            "1/3 Cup": 39.0,
+            "1/4 Cup": 29.0,
+            "3 TBSP": 22.0,
+            "2 TBSP": 15.0,
+            "1 TBSP": 7.0,
+            "1 TSP": 2.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -11.0,
+        "diff_percent": -8.6,
+        "note": "LA Times (117.0g/cup) is 8.6% lighter than King Arthur (128.0g/cup)."
+      }
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "category": "Liquids & Syrups",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "water",
+          "cup_grams": 226.0,
+          "volumes": {
+            "1 Cup": 226.0,
+            "3/4 Cup": 170.0,
+            "2/3 Cup": 151.0,
+            "1/2 Cup": 113.0,
+            "1/3 Cup": 75.0,
+            "1/4 Cup": 57.0,
+            "3 TBSP": 42.0,
+            "2 TBSP": 28.0,
+            "1 TBSP": 14.0,
+            "1 TSP": 5.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -1.0,
+        "diff_percent": -0.4,
+        "note": "Virtually identical between King Arthur (227.0g/cup) and LA Times (226.0g/cup)."
+      }
+    },
+    {
+      "id": "wheat-berries-red",
+      "name": "Wheat berries (red)",
+      "category": "Grains & Flours",
+      "cup_grams": 184.0,
+      "tbsp_grams": 11.5,
+      "tsp_grams": 3.83,
+      "ml_grams": 0.778,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 184.0,
+          "ounces": "6 1/2",
+          "cup_grams": 184.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "wheat-bran",
+      "name": "Wheat bran",
+      "category": "Grains & Flours",
+      "cup_grams": 64.0,
+      "tbsp_grams": 4.0,
+      "tsp_grams": 1.33,
+      "ml_grams": 0.271,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/2 cup",
+          "grams": 32.0,
+          "ounces": "1 1/8",
+          "cup_grams": 64.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "wheat bran",
+          "cup_grams": 60.0,
+          "volumes": {
+            "1 Cup": 60.0,
+            "3/4 Cup": 45.0,
+            "2/3 Cup": 40.0,
+            "1/2 Cup": 30.0,
+            "1/3 Cup": 20.0,
+            "1/4 Cup": 15.0,
+            "3 TBSP": 11.0,
+            "2 TBSP": 8.0,
+            "1 TBSP": 4.0,
+            "1 TSP": 1.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": -4.0,
+        "diff_percent": -6.2,
+        "note": "LA Times (60.0g/cup) is 6.2% lighter than King Arthur (64.0g/cup)."
+      }
+    },
+    {
+      "id": "wheat-germ",
+      "name": "Wheat germ",
+      "category": "Grains & Flours",
+      "cup_grams": 112.0,
+      "tbsp_grams": 7.0,
+      "tsp_grams": 2.33,
+      "ml_grams": 0.473,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1/4 cup",
+          "grams": 28.0,
+          "ounces": "1",
+          "cup_grams": 112.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "white-chocolate-chips",
+      "name": "White Chocolate Chips",
+      "category": "Chocolate & Cocoa",
+      "cup_grams": 170.0,
+      "tbsp_grams": 10.62,
+      "tsp_grams": 3.54,
+      "ml_grams": 0.719,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 170.0,
+          "ounces": "6",
+          "cup_grams": 170.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "white-rye-flour",
+      "name": "White Rye Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 106.0,
+      "tbsp_grams": 6.62,
+      "tsp_grams": 2.21,
+      "ml_grams": 0.448,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 106.0,
+          "ounces": "3 3/4",
+          "cup_grams": 106.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "white-whole-wheat",
+      "name": "White whole wheat",
+      "category": "Grains & Flours",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "white whole wheat",
+          "cup_grams": 144.0,
+          "volumes": {
+            "1 Cup": 144.0,
+            "3/4 Cup": 108.0,
+            "2/3 Cup": 96.0,
+            "1/2 Cup": 72.0,
+            "1/3 Cup": 48.0,
+            "1/4 Cup": 36.0,
+            "3 TBSP": 27.0,
+            "2 TBSP": 18.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "whole-grain-flour-blend",
+      "name": "Whole Grain Flour Blend",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "whole-wheat-flour-premium-100",
+      "name": "Whole Wheat Flour (Premium 100%)",
+      "category": "Grains & Flours",
+      "cup_grams": 113.0,
+      "tbsp_grams": 7.06,
+      "tsp_grams": 2.35,
+      "ml_grams": 0.478,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 113.0,
+          "ounces": "4",
+          "cup_grams": 113.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "whole wheat flour",
+          "cup_grams": 150.0,
+          "volumes": {
+            "1 Cup": 150.0,
+            "3/4 Cup": 113.0,
+            "2/3 Cup": 100.0,
+            "1/2 Cup": 75.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 38.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 37.0,
+        "diff_percent": 32.7,
+        "note": "LA Times (150.0g/cup) is 32.7% heavier than King Arthur (113.0g/cup)."
+      }
+    },
+    {
+      "id": "whole-wheat-graham-flour",
+      "name": "Whole wheat graham flour",
+      "category": "Grains & Flours",
+      "cup_grams": 149.0,
+      "tbsp_grams": 9.31,
+      "tsp_grams": 3.1,
+      "ml_grams": 0.63,
+      "sources": {
+        "king_arthur": null,
+        "la_times": {
+          "available": true,
+          "name": "whole wheat graham flour",
+          "cup_grams": 149.0,
+          "volumes": {
+            "1 Cup": 149.0,
+            "3/4 Cup": 112.0,
+            "2/3 Cup": 99.0,
+            "1/2 Cup": 75.0,
+            "1/3 Cup": 50.0,
+            "1/4 Cup": 37.0,
+            "3 TBSP": 28.0,
+            "2 TBSP": 19.0,
+            "1 TBSP": 9.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 2.0,
+            "1/4 TSP": 1.0
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      }
+    },
+    {
+      "id": "whole-wheat-pastry-flour-graham-flour",
+      "name": "Whole Wheat Pastry Flour / Graham Flour",
+      "category": "Grains & Flours",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.406,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 96.0,
+          "ounces": "3 3/8",
+          "cup_grams": 96.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": {
+          "available": true,
+          "name": "whole-wheat pastry",
+          "cup_grams": 134.0,
+          "volumes": {
+            "1 Cup": 134.0,
+            "3/4 Cup": 101.0,
+            "2/3 Cup": 89.0,
+            "1/2 Cup": 67.0,
+            "1/3 Cup": 45.0,
+            "1/4 Cup": 34.0,
+            "3 TBSP": 25.0,
+            "2 TBSP": 17.0,
+            "1 TBSP": 8.0,
+            "1 TSP": 3.0,
+            "1/2 TSP": 1.0,
+            "1/4 TSP": 0.5
+          },
+          "method": "Dip cup directly into container and sweep level (standard test kitchen)."
+        }
+      },
+      "comparison": {
+        "diff_grams": 38.0,
+        "diff_percent": 39.6,
+        "note": "LA Times (134.0g/cup) is 39.6% heavier than King Arthur (96.0g/cup)."
+      }
+    },
+    {
+      "id": "yeast-instant",
+      "name": "Yeast (instant)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 tea spoons",
+          "grams": 6.0,
+          "ounces": "1/5",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "yeast-instant",
+      "name": "Yeast (instant)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 149.3,
+      "tbsp_grams": 9.33,
+      "tsp_grams": 3.11,
+      "ml_grams": 0.631,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "2 1/4 teaspoons",
+          "grams": 7.0,
+          "ounces": "1/4",
+          "cup_grams": 149.3,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "yeast-instant",
+      "name": "Yeast (instant)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.609,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 tablespoon",
+          "grams": 9.0,
+          "ounces": "1/3",
+          "cup_grams": 144.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+      "category": "Dairy & Eggs",
+      "cup_grams": 227.0,
+      "tbsp_grams": 14.19,
+      "tsp_grams": 4.73,
+      "ml_grams": 0.959,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 227.0,
+          "ounces": "8",
+          "cup_grams": 227.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "yuletide-cheer-fruit-blend",
+      "name": "Yuletide Cheer Fruit Blend",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 130.0,
+      "tbsp_grams": 8.12,
+      "tsp_grams": 2.71,
+      "ml_grams": 0.549,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 130.0,
+          "ounces": "4 1/2",
+          "cup_grams": 130.0,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "zucchini-shredded",
+      "name": "Zucchini (shredded)",
+      "category": "Specialty & Other",
+      "cup_grams": 135.5,
+      "tbsp_grams": 8.47,
+      "tsp_grams": 2.82,
+      "ml_grams": 0.573,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 cup",
+          "grams": 135.5,
+          "ounces": "4 1/4 to 5 1/4",
+          "cup_grams": 135.5,
+          "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    }
+  ]
+};
