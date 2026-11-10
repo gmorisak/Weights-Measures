@@ -162,10 +162,49 @@
 
     <!-- VIEW 2: RECIPE WORKSHEET -->
     <section id="view-recipe" class="view-section">
+
+      <!-- Paste Entire Recipe Input Card -->
+      <div class="card" id="pasteRecipeCard">
+        <div class="card-title">
+          <span>Paste Recipe to Weights</span>
+          <button id="btnTryRecipeExample" style="background:none;border:none;color:var(--accent);font-size:0.75rem;font-weight:700;cursor:pointer;">
+            Try Example Recipe
+          </button>
+        </div>
+        <p style="font-size:0.76rem;color:var(--text-secondary);margin-bottom:8px;line-height:1.35;">
+          Paste an entire ingredient list from any website, book, or notes to calculate total weights:
+        </p>
+        <textarea id="pasteRecipeTextarea" class="recipe-textarea" rows="6" placeholder="Paste ingredients here, for example:&#10;2 1/2 cups all-purpose flour&#10;1 tsp baking soda&#10;1/2 tsp kosher salt&#10;1 cup unsalted butter, softened&#10;3/4 cup granulated sugar&#10;3/4 cup packed brown sugar&#10;2 large eggs&#10;1 tsp vanilla extract&#10;2 cups chocolate chips"></textarea>
+
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-top:10px;">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:0.72rem;font-weight:600;color:var(--text-secondary);">Flour Standard:</span>
+            <select id="pasteSourceSelector" class="select-unit" style="height:34px;font-size:0.76rem;padding:4px 8px;border-radius:var(--radius-sm);">
+              <option value="king_arthur">King Arthur (120g/cup flour)</option>
+              <option value="la_times">LA Times (142g/cup flour)</option>
+            </select>
+          </div>
+          <div style="display:flex;gap:6px;">
+            <button id="btnClearPastedText" class="pill-btn" style="height:36px;padding:6px 12px;font-size:0.78rem;">Clear</button>
+            <button id="btnParseRecipe" class="pill-btn active" style="height:36px;padding:6px 14px;font-size:0.78rem;font-weight:700;display:flex;align-items:center;gap:5px;">
+              <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+              Calculate Weights
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Baker's Recipe Worksheet Results Card -->
       <div class="card">
         <div class="card-title">
-          <span>Baker's Recipe Worksheet</span>
-          <button id="btnClearRecipe" style="background:none;border:none;color:var(--accent);font-size:0.78rem;font-weight:600;cursor:pointer;">Clear All</button>
+          <span>Converted Recipe Weights</span>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <button id="btnCopyRecipe" style="background:none;border:none;color:var(--accent);font-size:0.75rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:3px;">
+              <svg width="13" height="13" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              <span id="copyBtnText">Copy Weights</span>
+            </button>
+            <button id="btnClearRecipe" style="background:none;border:none;color:var(--text-muted);font-size:0.75rem;font-weight:600;cursor:pointer;">Clear</button>
+          </div>
         </div>
 
         <!-- Scale Multiplier Bar -->

@@ -1,5 +1,5 @@
 // Weights & Measures Service Worker - Offline Cache
-const CACHE_NAME = 'weights-measures-v1.0.0';
+const CACHE_NAME = 'weights-measures-v1.1.0';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

@@ -605,6 +605,243 @@
     });
   }
 
+  // --- Natural Language Ingredient Matcher ---
+  function findIngredientMatch(rawName) {
+    if (!rawName) return null;
+    const norm = rawName.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+    const SYNONYMS = {
+      'flour': 'all-purpose-flour',
+      'apflour': 'all-purpose-flour',
+      'whiteflour': 'all-purpose-flour',
+      'breadflour': 'unbleached-bread-flour',
+      'wholewheatflour': 'whole-wheat-flour-premium-100-',
+      'wheatflour': 'whole-wheat-flour-premium-100-',
+      'sugar': 'sugar-granulated-white',
+      'whitesugar': 'sugar-granulated-white',
+      'granulatedsugar': 'sugar-granulated-white',
+      'brownsugar': 'brown-sugar-dark-or-light-packed',
+      'packedbrownsugar': 'brown-sugar-dark-or-light-packed',
+      'lightbrownsugar': 'brown-sugar-dark-or-light-packed',
+      'darkbrownsugar': 'brown-sugar-dark-or-light-packed',
+      'powderedsugar': 'confectioners-sugar-unsifted',
+      'confectionerssugar': 'confectioners-sugar-unsifted',
+      'butter': 'butter',
+      'unsaltedbutter': 'butter',
+      'saltedbutter': 'butter',
+      'egg': 'egg-fresh',
+      'eggs': 'egg-fresh',
+      'largeegg': 'egg-fresh',
+      'largeeggs': 'egg-fresh',
+      'milk': 'milk-fresh',
+      'wholemilk': 'milk-fresh',
+      'chocolatechips': 'chocolate-chips',
+      'semisweetchocolatechips': 'chocolate-chips',
+      'darkchocolatechips': 'chocolate-chips',
+      'cocoa': 'cocoa-dry-baking',
+      'cocoapowder': 'cocoa-dry-baking',
+      'salt': 'salt-kosher-diamond-crystal',
+      'koshersalt': 'salt-kosher-diamond-crystal',
+      'tablesalt': 'salt-table',
+      'bakingpowder': 'baking-powder',
+      'bakingsoda': 'baking-soda',
+      'yeast': 'instant-yeast',
+      'instantyeast': 'instant-yeast',
+      'activedryyeast': 'active-dry-yeast',
+      'oil': 'vegetable-oil',
+      'vegetableoil': 'vegetable-oil',
+      'oliveoil': 'olive-oil',
+      'canolaoil': 'vegetable-oil',
+      'water': 'water',
+      'warmwater': 'water',
+      'vanilla': 'vanilla-extract',
+      'vanillaextract': 'vanilla-extract',
+      'honey': 'honey',
+      'molasses': 'molasses',
+      'maplesyrup': 'maple-syrup',
+      'cinnamon': 'cinnamon-ground',
+      'oats': 'rolled-oats',
+      'rolledoats': 'rolled-oats',
+      'walnuts': 'walnuts-chopped',
+      'pecans': 'pecans-diced',
+      'almonds': 'almonds-sliced'
+    };
+
+    if (SYNONYMS[norm]) {
+      const found = state.ingredients.find(i => i.id === SYNONYMS[norm]);
+      if (found) return found;
+    }
+
+    // Direct normalized match
+    for (const item of state.ingredients) {
+      const itemNorm = item.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (itemNorm === norm) return item;
+    }
+
+    // Inclusion match
+    for (const item of state.ingredients) {
+      const itemNorm = item.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (itemNorm.includes(norm) || (norm.length >= 4 && norm.includes(itemNorm))) {
+        return item;
+      }
+    }
+
+    // Token overlap matching
+    const tokens = rawName.toLowerCase().split(/\s+/).filter(t => t.length > 2);
+    let best = null;
+    let bestScore = 0;
+    for (const item of state.ingredients) {
+      const itemTokens = item.name.toLowerCase().split(/[\s(),/]+/).filter(t => t.length > 2);
+      let matchCount = 0;
+      tokens.forEach(t => {
+        if (itemTokens.some(it => it.includes(t) || t.includes(it))) matchCount++;
+      });
+      if (matchCount > bestScore) {
+        bestScore = matchCount;
+        best = item;
+      }
+    }
+    if (bestScore >= 1) return best;
+
+    return null;
+  }
+
+  // --- Natural Language Recipe Parser ---
+  function parseRecipeText(text, sourcePref) {
+    if (!text || !text.trim()) return;
+
+    const lines = text.split('\n');
+    const parsedItems = [];
+
+    lines.forEach(line => {
+      let l = line.trim();
+      if (!l || l.startsWith('#') || l.endsWith(':')) return;
+
+      // Strip bullet points or numbered lists: "- ", "* ", "1. ", "1) "
+      let cleaned = l.replace(/^[\s\-*•]+/, '').replace(/^(\d+\)\s*|\d+\.\s+)/, '').trim();
+      if (!cleaned) return;
+
+      // Handle pinch/dash
+      if (/^pinch\s+(?:of\s+)?/i.test(cleaned)) {
+        const ingStr = cleaned.replace(/^pinch\s+(?:of\s+)?/i, '').trim();
+        const matched = findIngredientMatch(ingStr);
+        parsedItems.push({
+          id: matched ? matched.id : 'custom-pinch',
+          name: matched ? matched.name : ingStr,
+          volume: 0.125,
+          unit: 'tsp',
+          grams: 0.5,
+          category: matched ? matched.category : 'Leaveners & Spices'
+        });
+        return;
+      }
+
+      // Quantity pattern: fractions (2 1/2, 1/4), decimals (1.5), integers (2)
+      const qtyMatch = cleaned.match(/^(\d+\s+\d+\/\d+|\d+\/\d+|\d+\.\d+|\d+)\s*(.*)$/);
+      const rawQty = qtyMatch ? qtyMatch[1] : '1';
+      const remainder = qtyMatch ? qtyMatch[2].trim() : cleaned;
+
+      const unitMatch = remainder.match(/^(cups?|c\.|c|tablespoons?|tbsp|tbs|teaspoons?|tsp|sticks?|stick|ml|grams?|g|oz|ounces?|large|fl\s*oz)\b\.?\s*(?:of\s+)?(.*)$/i);
+      let unit = 'cup';
+      let ingStr = remainder;
+
+      if (unitMatch) {
+        unit = unitMatch[1].toLowerCase().replace(/\.$/, '');
+        ingStr = unitMatch[2].trim();
+      }
+
+      if (unit === 'c' || unit === 'cups') unit = 'cup';
+      if (unit === 'tablespoon' || unit === 'tablespoons' || unit === 'tbs') unit = 'tbsp';
+      if (unit === 'teaspoon' || unit === 'teaspoons') unit = 'tsp';
+      if (unit === 'sticks') unit = 'stick';
+      if (unit === 'grams') unit = 'g';
+      if (unit === 'ounces') unit = 'oz';
+
+      // Clean descriptive suffixes: ", softened", ", room temperature", ", melted", etc.
+      ingStr = ingStr.replace(/,\s*(softened|melted|room temperature|sifted|divided|beaten|chopped|at room temperature|warmed|crushed).*$/i, '').trim();
+
+      const numVal = parseFraction(rawQty);
+      const matched = findIngredientMatch(ingStr);
+
+      let grams = 0;
+      if (unit === 'g') {
+        grams = numVal;
+      } else if (unit === 'oz') {
+        grams = numVal * 28.3495;
+      } else if (unit === 'large' || ingStr.toLowerCase().includes('egg')) {
+        grams = numVal * 50; // standard large egg: 50g
+      } else if (unit === 'stick') {
+        grams = numVal * 113.4; // 1 stick butter = 113.4g (1/2 cup)
+      } else if (matched) {
+        const cups = numVal * (VOLUME_TO_CUPS[unit] || 1.0);
+        const cupG = getGramsPerCup(matched, sourcePref);
+        grams = cups * cupG;
+      } else {
+        // Fallback generic estimate: 1 cup ~= 150g
+        const cups = numVal * (VOLUME_TO_CUPS[unit] || 1.0);
+        grams = cups * 150;
+      }
+
+      parsedItems.push({
+        id: matched ? matched.id : `custom-${ingStr.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
+        name: matched ? matched.name : (ingStr.charAt(0).toUpperCase() + ingStr.slice(1)),
+        volume: numVal,
+        unit: unit,
+        grams: Math.round(grams * 10) / 10,
+        category: matched ? matched.category : 'Specialty & Other'
+      });
+    });
+
+    if (parsedItems.length > 0) {
+      state.recipeItems = parsedItems;
+      saveRecipe();
+      renderRecipe();
+    }
+  }
+
+  // --- Copy Formatted Recipe to Clipboard ---
+  function copyFormattedRecipe() {
+    if (state.recipeItems.length === 0) return;
+
+    let totalGrams = 0;
+    let flourGrams = 0;
+
+    state.recipeItems.forEach(item => {
+      const g = item.grams * state.recipeScale;
+      totalGrams += g;
+      if (item.category === 'Grains & Flours' || item.name.toLowerCase().includes('flour')) {
+        flourGrams += g;
+      }
+    });
+
+    const lines = [
+      'Weights & Measures Recipe',
+      `Batch Scale: ${state.recipeScale}x | Total Weight: ${Math.round(totalGrams)}g (${(totalGrams / 28.3495).toFixed(1)} oz)`,
+      ''
+    ];
+
+    state.recipeItems.forEach(item => {
+      const scaledGrams = Math.round(item.grams * state.recipeScale * 10) / 10;
+      const scaledVol = Math.round(item.volume * state.recipeScale * 100) / 100;
+      const pct = flourGrams > 0 ? Math.round((scaledGrams / flourGrams) * 100) : null;
+      const pctStr = pct !== null ? ` [${pct}% flour]` : '';
+      lines.push(`• ${item.name}: ${scaledGrams}g (${formatFraction(scaledVol)} ${item.unit})${pctStr}`);
+    });
+
+    const textToCopy = lines.join('\n');
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      const copyBtnText = document.getElementById('copyBtnText');
+      if (copyBtnText) {
+        const orig = copyBtnText.textContent;
+        copyBtnText.textContent = 'Copied! ✓';
+        setTimeout(() => { copyBtnText.textContent = orig; }, 2000);
+      }
+    }).catch(err => {
+      console.warn('Clipboard write failed:', err);
+      alert(textToCopy);
+    });
+  }
+
   // --- Event Listeners Setup ---
   function setupEventListeners() {
     // Theme toggle
@@ -691,6 +928,46 @@
         renderRecipe();
       }
     });
+
+    // Parse Entire Recipe Button
+    document.getElementById('btnParseRecipe')?.addEventListener('click', () => {
+      const textarea = document.getElementById('pasteRecipeTextarea');
+      const sourcePref = document.getElementById('pasteSourceSelector')?.value || 'king_arthur';
+      if (textarea && textarea.value.trim()) {
+        parseRecipeText(textarea.value, sourcePref);
+      } else {
+        alert('Please paste or type an ingredient list first!');
+      }
+    });
+
+    // Try Recipe Example Button
+    document.getElementById('btnTryRecipeExample')?.addEventListener('click', () => {
+      const sample = [
+        '2 1/4 cups all-purpose flour',
+        '1 tsp baking soda',
+        '1/2 tsp kosher salt',
+        '1 cup unsalted butter, softened',
+        '3/4 cup granulated sugar',
+        '3/4 cup packed brown sugar',
+        '1 tsp vanilla extract',
+        '2 large eggs',
+        '2 cups semi-sweet chocolate chips',
+        '1 cup chopped walnuts'
+      ].join('\n');
+      const textarea = document.getElementById('pasteRecipeTextarea');
+      if (textarea) textarea.value = sample;
+      const sourcePref = document.getElementById('pasteSourceSelector')?.value || 'king_arthur';
+      parseRecipeText(sample, sourcePref);
+    });
+
+    // Clear Pasted Text Button
+    document.getElementById('btnClearPastedText')?.addEventListener('click', () => {
+      const textarea = document.getElementById('pasteRecipeTextarea');
+      if (textarea) textarea.value = '';
+    });
+
+    // Copy Recipe Button
+    document.getElementById('btnCopyRecipe')?.addEventListener('click', copyFormattedRecipe);
 
     // Autocomplete & Category Pills
     setupAutocomplete();
