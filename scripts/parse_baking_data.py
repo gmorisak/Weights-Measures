@@ -358,6 +358,89 @@ def main():
         }
         merged_items.append(item)
 
+    # Add essential baking staples (spices and zests)
+    baking_staples = [
+        {
+            'id': 'cinnamon-ground',
+            'name': 'Cinnamon (ground)',
+            'category': 'Leaveners & Spices',
+            'cup_grams': 125.0,
+            'tbsp_grams': 7.8,
+            'tsp_grams': 2.6,
+            'ml_grams': 0.53,
+            'sources': {
+                'king_arthur': {'available': True, 'volume': '1 teaspoon', 'grams': 2.6, 'ounces': '0.09', 'cup_grams': 125.0, 'method': 'Standard culinary spice weight.'},
+                'la_times': None
+            }
+        },
+        {
+            'id': 'lemon-zest',
+            'name': 'Lemon Zest',
+            'category': 'Fruits & Vegetables',
+            'cup_grams': 96.0,
+            'tbsp_grams': 6.0,
+            'tsp_grams': 2.0,
+            'ml_grams': 0.41,
+            'sources': {
+                'king_arthur': {'available': True, 'volume': '1 lemon (1 tbsp)', 'grams': 6.0, 'ounces': '0.21', 'cup_grams': 96.0, 'method': 'Zest of 1 medium fresh lemon.'},
+                'la_times': None
+            }
+        },
+        {
+            'id': 'orange-zest',
+            'name': 'Orange Zest',
+            'category': 'Fruits & Vegetables',
+            'cup_grams': 96.0,
+            'tbsp_grams': 6.0,
+            'tsp_grams': 2.0,
+            'ml_grams': 0.41,
+            'sources': {
+                'king_arthur': {'available': True, 'volume': '1 orange (1.5-2 tbsp)', 'grams': 10.0, 'ounces': '0.35', 'cup_grams': 96.0, 'method': 'Zest of 1 medium fresh orange.'},
+                'la_times': None
+            }
+        },
+        {
+            'id': 'nutmeg-ground',
+            'name': 'Nutmeg (ground)',
+            'category': 'Leaveners & Spices',
+            'cup_grams': 110.0,
+            'tbsp_grams': 6.9,
+            'tsp_grams': 2.3,
+            'ml_grams': 0.47,
+            'sources': {
+                'king_arthur': {'available': True, 'volume': '1 teaspoon', 'grams': 2.3, 'ounces': '0.08', 'cup_grams': 110.0, 'method': 'Standard culinary spice weight.'},
+                'la_times': None
+            }
+        },
+        {
+            'id': 'ginger-ground',
+            'name': 'Ginger (ground)',
+            'category': 'Leaveners & Spices',
+            'cup_grams': 96.0,
+            'tbsp_grams': 6.0,
+            'tsp_grams': 2.0,
+            'ml_grams': 0.41,
+            'sources': {
+                'king_arthur': {'available': True, 'volume': '1 teaspoon', 'grams': 2.0, 'ounces': '0.07', 'cup_grams': 96.0, 'method': 'Standard culinary spice weight.'},
+                'la_times': None
+            }
+        },
+        {
+            'id': 'cream-of-tartar',
+            'name': 'Cream of tartar',
+            'category': 'Leaveners & Spices',
+            'cup_grams': 144.0,
+            'tbsp_grams': 9.0,
+            'tsp_grams': 3.0,
+            'ml_grams': 0.61,
+            'sources': {
+                'king_arthur': {'available': True, 'volume': '1 teaspoon', 'grams': 3.0, 'ounces': '0.11', 'cup_grams': 144.0, 'method': 'Standard baking stabilizer weight.'},
+                'la_times': None
+            }
+        }
+    ]
+    merged_items.extend(baking_staples)
+
     # Sort alphabetically
     merged_items.sort(key=lambda x: x['name'].lower())
 

@@ -1,7 +1,7 @@
 window.BAKING_DATA = {
   "version": "1.0.0",
   "generated_at": "2026-11-09",
-  "total_ingredients": 387,
+  "total_ingredients": 393,
   "categories": [
     "Chocolate & Cocoa",
     "Dairy & Eggs",
@@ -2218,6 +2218,26 @@ window.BAKING_DATA = {
       }
     },
     {
+      "id": "cinnamon-ground",
+      "name": "Cinnamon (ground)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 125.0,
+      "tbsp_grams": 7.8,
+      "tsp_grams": 2.6,
+      "ml_grams": 0.53,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 teaspoon",
+          "grams": 2.6,
+          "ounces": "0.09",
+          "cup_grams": 125.0,
+          "method": "Standard culinary spice weight."
+        },
+        "la_times": null
+      }
+    },
+    {
       "id": "cinnamon-sweet-bits",
       "name": "Cinnamon Sweet Bits",
       "category": "Leaveners & Spices",
@@ -3157,6 +3177,26 @@ window.BAKING_DATA = {
           "ounces": "5",
           "cup_grams": 284.0,
           "method": "Fluff in bin, spoon gently into measuring cup, sweep level."
+        },
+        "la_times": null
+      }
+    },
+    {
+      "id": "cream-of-tartar",
+      "name": "Cream of tartar",
+      "category": "Leaveners & Spices",
+      "cup_grams": 144.0,
+      "tbsp_grams": 9.0,
+      "tsp_grams": 3.0,
+      "ml_grams": 0.61,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 teaspoon",
+          "grams": 3.0,
+          "ounces": "0.11",
+          "cup_grams": 144.0,
+          "method": "Standard baking stabilizer weight."
         },
         "la_times": null
       }
@@ -4358,6 +4398,26 @@ window.BAKING_DATA = {
       }
     },
     {
+      "id": "ginger-ground",
+      "name": "Ginger (ground)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.41,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 teaspoon",
+          "grams": 2.0,
+          "ounces": "0.07",
+          "cup_grams": 96.0,
+          "method": "Standard culinary spice weight."
+        },
+        "la_times": null
+      }
+    },
+    {
       "id": "gluten-free-all-purpose-baking-mix",
       "name": "Gluten-Free All-Purpose Baking Mix",
       "category": "Grains & Flours",
@@ -5366,6 +5426,26 @@ window.BAKING_DATA = {
       }
     },
     {
+      "id": "lemon-zest",
+      "name": "Lemon Zest",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.41,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 lemon (1 tbsp)",
+          "grams": 6.0,
+          "ounces": "0.21",
+          "cup_grams": 96.0,
+          "method": "Zest of 1 medium fresh lemon."
+        },
+        "la_times": null
+      }
+    },
+    {
       "id": "lime-juice-powder",
       "name": "Lime Juice Powder",
       "category": "Leaveners & Spices",
@@ -6234,6 +6314,26 @@ window.BAKING_DATA = {
       }
     },
     {
+      "id": "nutmeg-ground",
+      "name": "Nutmeg (ground)",
+      "category": "Leaveners & Spices",
+      "cup_grams": 110.0,
+      "tbsp_grams": 6.9,
+      "tsp_grams": 2.3,
+      "ml_grams": 0.47,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 teaspoon",
+          "grams": 2.3,
+          "ounces": "0.08",
+          "cup_grams": 110.0,
+          "method": "Standard culinary spice weight."
+        },
+        "la_times": null
+      }
+    },
+    {
       "id": "oat-bran",
       "name": "Oat bran",
       "category": "Grains & Flours",
@@ -6447,6 +6547,26 @@ window.BAKING_DATA = {
           },
           "method": "Dip cup directly into container and sweep level (standard test kitchen)."
         }
+      }
+    },
+    {
+      "id": "orange-zest",
+      "name": "Orange Zest",
+      "category": "Fruits & Vegetables",
+      "cup_grams": 96.0,
+      "tbsp_grams": 6.0,
+      "tsp_grams": 2.0,
+      "ml_grams": 0.41,
+      "sources": {
+        "king_arthur": {
+          "available": true,
+          "volume": "1 orange (1.5-2 tbsp)",
+          "grams": 10.0,
+          "ounces": "0.35",
+          "cup_grams": 96.0,
+          "method": "Zest of 1 medium fresh orange."
+        },
+        "la_times": null
       }
     },
     {

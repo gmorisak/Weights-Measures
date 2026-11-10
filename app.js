@@ -605,6 +605,13 @@
     });
   }
 
+  // Word numbers map
+  const WORD_NUMBERS = {
+    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+    'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
+    'a': 1, 'an': 1, 'half': 0.5, 'quarter': 0.25
+  };
+
   // --- Natural Language Ingredient Matcher ---
   function findIngredientMatch(rawName) {
     if (!rawName) return null;
@@ -617,6 +624,7 @@
       'breadflour': 'unbleached-bread-flour',
       'wholewheatflour': 'whole-wheat-flour-premium-100-',
       'wheatflour': 'whole-wheat-flour-premium-100-',
+      'almondflour': 'almond-flour',
       'sugar': 'sugar-granulated-white',
       'whitesugar': 'sugar-granulated-white',
       'granulatedsugar': 'sugar-granulated-white',
@@ -645,6 +653,12 @@
       'tablesalt': 'salt-table',
       'bakingpowder': 'baking-powder',
       'bakingsoda': 'baking-soda',
+      'cinnamon': 'cinnamon-ground',
+      'groundcinnamon': 'cinnamon-ground',
+      'lemonzest': 'lemon-zest',
+      'orangezest': 'orange-zest',
+      'zestoflemon': 'lemon-zest',
+      'zestoforange': 'orange-zest',
       'yeast': 'instant-yeast',
       'instantyeast': 'instant-yeast',
       'activedryyeast': 'active-dry-yeast',
@@ -659,7 +673,6 @@
       'honey': 'honey',
       'molasses': 'molasses',
       'maplesyrup': 'maple-syrup',
-      'cinnamon': 'cinnamon-ground',
       'oats': 'rolled-oats',
       'rolledoats': 'rolled-oats',
       'walnuts': 'walnuts-chopped',
@@ -721,6 +734,25 @@
       let cleaned = l.replace(/^[\s\-*•]+/, '').replace(/^(\d+\)\s*|\d+\.\s+)/, '').trim();
       if (!cleaned) return;
 
+      // Handle citrus zest (e.g. "zest of one lemon", "zest of 1 orange", "lemon zest")
+      const zestMatch = cleaned.match(/^zest\s+of\s+(?:(\d+|one|two|three|a|an)\s+)?(lemon|orange|lime)s?/i);
+      if (zestMatch) {
+        const countStr = zestMatch[1] ? zestMatch[1].toLowerCase() : '1';
+        const count = WORD_NUMBERS[countStr] || parseFloat(countStr) || 1;
+        const fruit = zestMatch[2].toLowerCase();
+        const gramsPerFruit = fruit === 'orange' ? 10 : (fruit === 'lime' ? 4 : 6);
+        const matched = findIngredientMatch(fruit + ' zest');
+        parsedItems.push({
+          id: matched ? matched.id : `custom-${fruit}-zest`,
+          name: matched ? matched.name : (fruit.charAt(0).toUpperCase() + fruit.slice(1) + ' Zest'),
+          volume: count,
+          unit: count === 1 ? fruit : fruit + 's',
+          grams: count * gramsPerFruit,
+          category: 'Fruits & Vegetables'
+        });
+        return;
+      }
+
       // Handle pinch/dash
       if (/^pinch\s+(?:of\s+)?/i.test(cleaned)) {
         const ingStr = cleaned.replace(/^pinch\s+(?:of\s+)?/i, '').trim();
@@ -736,26 +768,56 @@
         return;
       }
 
+      // Replace leading word numbers like "one cup", "two eggs"
+      const wordNumMatch = cleaned.match(/^([a-z]+)\s+(.*)$/i);
+      if (wordNumMatch && WORD_NUMBERS[wordNumMatch[1].toLowerCase()]) {
+        cleaned = WORD_NUMBERS[wordNumMatch[1].toLowerCase()] + ' ' + wordNumMatch[2];
+      }
+
       // Quantity pattern: fractions (2 1/2, 1/4), decimals (1.5), integers (2)
       const qtyMatch = cleaned.match(/^(\d+\s+\d+\/\d+|\d+\/\d+|\d+\.\d+|\d+)\s*(.*)$/);
       const rawQty = qtyMatch ? qtyMatch[1] : '1';
       const remainder = qtyMatch ? qtyMatch[2].trim() : cleaned;
 
-      const unitMatch = remainder.match(/^(cups?|c\.|c|tablespoons?|tbsp|tbs|teaspoons?|tsp|sticks?|stick|ml|grams?|g|oz|ounces?|large|fl\s*oz)\b\.?\s*(?:of\s+)?(.*)$/i);
-      let unit = 'cup';
+      // Unit matching with explicit user rules:
+      // "t" = tsp
+      // "T" = TBSP
+      // "C" = Cup
+      let unit = '';
       let ingStr = remainder;
 
-      if (unitMatch) {
-        unit = unitMatch[1].toLowerCase().replace(/\.$/, '');
-        ingStr = unitMatch[2].trim();
+      // Case-sensitive check for single-letter shorthand t, T, C, c:
+      const singleMatch = remainder.match(/^([tTCc])\b\.?\s*(?:of\s+)?(.*)$/);
+      if (singleMatch) {
+        const letter = singleMatch[1];
+        if (letter === 't') unit = 'tsp';
+        else if (letter === 'T') unit = 'tbsp';
+        else if (letter === 'C' || letter === 'c') unit = 'cup';
+        ingStr = singleMatch[2].trim();
+      } else {
+        // Multi-letter units (case-insensitive)
+        const unitMatch = remainder.match(/^(cups?|c\.|tablespoons?|tbsp\.?|tbs\.?|teaspoons?|tsp\.?|sticks?|stick|ml|grams?|g\b|oz\b|ounces?|large|fl\s*oz)\b\.?\s*(?:of\s+)?(.*)$/i);
+        if (unitMatch) {
+          let u = unitMatch[1].toLowerCase().replace(/\.$/, '');
+          if (u === 'c' || u === 'cups') u = 'cup';
+          if (u === 'tablespoon' || u === 'tablespoons' || u === 'tbs' || u === 'tbsp') u = 'tbsp';
+          if (u === 'teaspoon' || u === 'teaspoons' || u === 'tsp') u = 'tsp';
+          if (u === 'sticks') u = 'stick';
+          if (u === 'grams') u = 'g';
+          if (u === 'ounces') u = 'oz';
+          unit = u;
+          ingStr = unitMatch[2].trim();
+        }
       }
 
-      if (unit === 'c' || unit === 'cups') unit = 'cup';
-      if (unit === 'tablespoon' || unit === 'tablespoons' || unit === 'tbs') unit = 'tbsp';
-      if (unit === 'teaspoon' || unit === 'teaspoons') unit = 'tsp';
-      if (unit === 'sticks') unit = 'stick';
-      if (unit === 'grams') unit = 'g';
-      if (unit === 'ounces') unit = 'oz';
+      // If unit is still empty, check for natural count nouns (eggs, etc.)
+      if (!unit) {
+        if (/^eggs?\b/i.test(ingStr)) {
+          unit = 'egg';
+        } else {
+          unit = 'item';
+        }
+      }
 
       // Clean descriptive suffixes: ", softened", ", room temperature", ", melted", etc.
       ingStr = ingStr.replace(/,\s*(softened|melted|room temperature|sifted|divided|beaten|chopped|at room temperature|warmed|crushed).*$/i, '').trim();
@@ -768,14 +830,20 @@
         grams = numVal;
       } else if (unit === 'oz') {
         grams = numVal * 28.3495;
-      } else if (unit === 'large' || ingStr.toLowerCase().includes('egg')) {
+      } else if (unit === 'egg' || ingStr.toLowerCase().includes('egg')) {
         grams = numVal * 50; // standard large egg: 50g
       } else if (unit === 'stick') {
         grams = numVal * 113.4; // 1 stick butter = 113.4g (1/2 cup)
       } else if (matched) {
-        const cups = numVal * (VOLUME_TO_CUPS[unit] || 1.0);
-        const cupG = getGramsPerCup(matched, sourcePref);
-        grams = cups * cupG;
+        if (unit === 'tsp') {
+          grams = numVal * (matched.tsp_grams || (matched.cup_grams / 48.0));
+        } else if (unit === 'tbsp') {
+          grams = numVal * (matched.tbsp_grams || (matched.cup_grams / 16.0));
+        } else {
+          const cups = numVal * (VOLUME_TO_CUPS[unit] || 1.0);
+          const cupG = matched.sources?.[sourcePref]?.cup_grams || matched.cup_grams || 120;
+          grams = cups * cupG;
+        }
       } else {
         // Fallback generic estimate: 1 cup ~= 150g
         const cups = numVal * (VOLUME_TO_CUPS[unit] || 1.0);
@@ -794,9 +862,46 @@
 
     if (parsedItems.length > 0) {
       state.recipeItems = parsedItems;
+      state.recipeScale = 1.0;
       saveRecipe();
       renderRecipe();
+      renderInlineRecipeOutput(parsedItems);
+    } else {
+      alert('Could not find any recognizable ingredients. Please check your text format.');
     }
+  }
+
+  // --- Render Inline Recipe Results Box ---
+  function renderInlineRecipeOutput(items) {
+    const container = document.getElementById('pasteRecipeOutput');
+    const totalEl = document.getElementById('inlineTotalWeight');
+    const listEl = document.getElementById('inlineRecipeList');
+    if (!container || !listEl) return;
+
+    let totalG = 0;
+    items.forEach(i => { totalG += i.grams; });
+    const totalOz = (totalG / 28.3495).toFixed(1);
+    const totalLb = (totalG / 453.592).toFixed(2);
+
+    if (totalEl) {
+      totalEl.innerHTML = `${Math.round(totalG)}g <span style="font-size:0.85rem;font-weight:600;opacity:0.8;">(${totalOz} oz / ${totalLb} lb)</span>`;
+    }
+
+    listEl.innerHTML = items.map(item => `
+      <div class="recipe-item-row">
+        <div class="recipe-item-info">
+          <span class="recipe-item-name">${item.name}</span>
+          <span class="recipe-item-vol">${formatFraction(item.volume)} ${item.unit}</span>
+        </div>
+        <div class="recipe-item-weight">
+          <span class="recipe-item-grams">${item.grams}g</span>
+          <div style="font-size:0.7rem;color:var(--text-secondary);">${(item.grams / 28.3495).toFixed(1)} oz</div>
+        </div>
+      </div>
+    `).join('');
+
+    container.style.display = 'block';
+    container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
   // --- Copy Formatted Recipe to Clipboard ---
@@ -831,10 +936,16 @@
     const textToCopy = lines.join('\n');
     navigator.clipboard.writeText(textToCopy).then(() => {
       const copyBtnText = document.getElementById('copyBtnText');
+      const inlineCopyBtnText = document.getElementById('inlineCopyBtnText');
       if (copyBtnText) {
         const orig = copyBtnText.textContent;
         copyBtnText.textContent = 'Copied! ✓';
         setTimeout(() => { copyBtnText.textContent = orig; }, 2000);
+      }
+      if (inlineCopyBtnText) {
+        const orig = inlineCopyBtnText.textContent;
+        inlineCopyBtnText.textContent = 'Copied! ✓';
+        setTimeout(() => { inlineCopyBtnText.textContent = orig; }, 2000);
       }
     }).catch(err => {
       console.warn('Clipboard write failed:', err);
@@ -968,6 +1079,7 @@
 
     // Copy Recipe Button
     document.getElementById('btnCopyRecipe')?.addEventListener('click', copyFormattedRecipe);
+    document.getElementById('btnCopyInlineRecipe')?.addEventListener('click', copyFormattedRecipe);
 
     // Autocomplete & Category Pills
     setupAutocomplete();

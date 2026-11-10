@@ -192,6 +192,21 @@
             </button>
           </div>
         </div>
+
+        <!-- Immediate Inline Output Area -->
+        <div id="pasteRecipeOutput" style="display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--border);">
+          <div style="background:var(--accent-light);border:1px solid var(--accent);border-radius:var(--radius-sm);padding:10px 12px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;">
+            <div>
+              <span style="font-size:0.75rem;font-weight:700;color:var(--accent);text-transform:uppercase;">Total Recipe Weight</span>
+              <div id="inlineTotalWeight" style="font-size:1.35rem;font-weight:800;color:var(--accent);">0g</div>
+            </div>
+            <button id="btnCopyInlineRecipe" class="pill-btn active" style="height:32px;padding:4px 10px;font-size:0.74rem;display:flex;align-items:center;gap:4px;">
+              <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              <span id="inlineCopyBtnText">Copy Weights</span>
+            </button>
+          </div>
+          <div id="inlineRecipeList" class="recipe-list"></div>
+        </div>
       </div>
 
       <!-- Baker's Recipe Worksheet Results Card -->
